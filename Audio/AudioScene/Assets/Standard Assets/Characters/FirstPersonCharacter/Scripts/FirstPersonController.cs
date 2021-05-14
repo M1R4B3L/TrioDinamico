@@ -2,6 +2,7 @@ using System;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 using UnityStandardAssets.Utility;
+
 using Random = UnityEngine.Random;
 
 #pragma warning disable 618, 649
@@ -25,10 +26,15 @@ namespace UnityStandardAssets.Characters.FirstPerson
         [SerializeField] private CurveControlledBob m_HeadBob = new CurveControlledBob();
         [SerializeField] private LerpControlledBob m_JumpBob = new LerpControlledBob();
         [SerializeField] private float m_StepInterval;
-        [SerializeField] private AudioClip[] m_FootstepSounds;    // an array of footstep sounds that will be randomly selected from.
+        [SerializeField] private string material;
+        [SerializeField] private AudioClip[] m_DirtFootstepSounds;    // an array of footstep sounds that will be randomly selected from.
+        [SerializeField] private AudioClip[] m_ConcreteFootstepSounds;    // an array of footstep sounds that will be randomly selected from.
+        [SerializeField] private AudioClip[] m_WoodFootstepSounds;    // an array of footstep sounds that will be randomly selected from.
+        [SerializeField] private AudioClip[] m_WaterFootstepSounds;    // an array of footstep sounds that will be randomly selected from.
         [SerializeField] private AudioClip m_JumpSound;           // the sound played when character leaves the ground.
         [SerializeField] private AudioClip m_LandSound;           // the sound played when character touches back on ground.
-
+ 
+ 
         private Camera m_Camera;
         private bool m_Jump;
         private float m_YRotation;
@@ -167,14 +173,53 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 return;
             }
-            // pick & play a random footstep sound from the array,
-            // excluding sound at index 0
-            int n = Random.Range(1, m_FootstepSounds.Length);
-            m_AudioSource.clip = m_FootstepSounds[n];
-            m_AudioSource.PlayOneShot(m_AudioSource.clip);
-            // move picked sound to index 0 so it's not picked next time
-            m_FootstepSounds[n] = m_FootstepSounds[0];
-            m_FootstepSounds[0] = m_AudioSource.clip;
+
+            switch(material)
+            {
+                case "Dirt":
+                    // pick & play a random footstep sound from the array,
+                    // excluding sound at index 0
+                    int dirt = Random.Range(1, m_DirtFootstepSounds.Length);
+                    m_AudioSource.clip = m_DirtFootstepSounds[0];
+                    m_AudioSource.PlayOneShot(m_AudioSource.clip);
+                    // move picked sound to index 0 so it's not picked next time
+                    m_DirtFootstepSounds[0] = m_DirtFootstepSounds[0];
+                    m_DirtFootstepSounds[0] = m_AudioSource.clip;
+                    break;
+                case "Concrete":
+                    // pick & play a random footstep sound from the array,
+                    // excluding sound at index 0
+                    int concrete = Random.Range(1, m_ConcreteFootstepSounds.Length);
+                    m_AudioSource.clip = m_ConcreteFootstepSounds[concrete];
+                    m_AudioSource.PlayOneShot(m_AudioSource.clip);
+                    // move picked sound to index 0 so it's not picked next time
+                    m_ConcreteFootstepSounds[concrete] = m_ConcreteFootstepSounds[0];
+                    m_ConcreteFootstepSounds[0] = m_AudioSource.clip;
+                    break;
+                case "Wood":
+                    // pick & play a random footstep sound from the array,
+                    // excluding sound at index 0
+                    int wood = Random.Range(1, m_WoodFootstepSounds.Length);
+                    m_AudioSource.clip = m_WoodFootstepSounds[0];
+                    m_AudioSource.PlayOneShot(m_AudioSource.clip);
+                    // move picked sound to index 0 so it's not picked next time
+                    m_WoodFootstepSounds[0] = m_WoodFootstepSounds[0];
+                    m_WoodFootstepSounds[0] = m_AudioSource.clip;
+                    break;
+                case "Water":
+                    // pick & play a random footstep sound from the array,
+                    // excluding sound at index 0
+                    int water = Random.Range(1, m_WaterFootstepSounds.Length);
+                    m_AudioSource.clip = m_WaterFootstepSounds[0];
+                    m_AudioSource.PlayOneShot(m_AudioSource.clip);
+                    // move picked sound to index 0 so it's not picked next time
+                    m_WaterFootstepSounds[0] = m_WaterFootstepSounds[0];
+                    m_WaterFootstepSounds[0] = m_AudioSource.clip;
+                    break;
+                default:
+                    break;
+            }
+       
         }
 
 
@@ -243,6 +288,27 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         private void OnControllerColliderHit(ControllerColliderHit hit)
         {
+            tag = hit.gameObject.tag;
+            switch (tag)
+            {
+                case "Dirt":
+                    material = tag;
+                    break;
+                case "Concrete":
+                    material = tag;
+                    break;
+                case "Wood":
+                    material = tag;
+                    break;
+                case "Water":
+                    material = tag;
+                    break;
+                default:
+                    break;
+            }
+
+            Debug.Log(material);
+
             Rigidbody body = hit.collider.attachedRigidbody;
             //dont move the rigidbody if the character is on top of it
             if (m_CollisionFlags == CollisionFlags.Below)
@@ -255,6 +321,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 return;
             }
             body.AddForceAtPosition(m_CharacterController.velocity*0.1f, hit.point, ForceMode.Impulse);
+
         }
     }
 }
