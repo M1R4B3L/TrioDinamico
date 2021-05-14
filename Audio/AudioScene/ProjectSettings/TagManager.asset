@@ -8,6 +8,10 @@ TagManager:
   - Concrete
   - Wood
   - Water
+  - In_House
+  - In_Water
+  - In_Factory
+  - In_Forest
   layers:
   - Default
   - TransparentFX
