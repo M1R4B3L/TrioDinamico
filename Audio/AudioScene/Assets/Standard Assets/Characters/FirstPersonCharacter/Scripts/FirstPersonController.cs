@@ -61,7 +61,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_NextStep = m_StepCycle/2f;
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
-			m_MouseLook.Init(transform , m_Camera.transform);
+            m_MouseLook.Init(transform , m_Camera.transform);
         }
 
 
@@ -210,11 +210,11 @@ namespace UnityStandardAssets.Characters.FirstPerson
                     // pick & play a random footstep sound from the array,
                     // excluding sound at index 0
                     int water = Random.Range(1, m_WaterFootstepSounds.Length);
-                    m_AudioSource.clip = m_WaterFootstepSounds[0];
+                    m_AudioSource.clip = m_WaterFootstepSounds[water];
                     m_AudioSource.PlayOneShot(m_AudioSource.clip);
                     // move picked sound to index 0 so it's not picked next time
-                    m_WaterFootstepSounds[0] = m_WaterFootstepSounds[0];
-                    m_WaterFootstepSounds[0] = m_AudioSource.clip;
+                    m_WaterFootstepSounds[water] = m_WaterFootstepSounds[0];
+                    m_WaterFootstepSounds[water] = m_AudioSource.clip;
                     break;
                 default:
                     break;
