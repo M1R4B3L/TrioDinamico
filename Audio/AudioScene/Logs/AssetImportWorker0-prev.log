@@ -1,0 +1,346 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.928; Version 2009; 64bit' Language: 'es' Physical Memory: 16312 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/xocog/Documents/GitHub/TrioDinamico/Audio/AudioScene
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55183
+Successfully changed project path to: C:/Users/xocog/Documents/GitHub/TrioDinamico/Audio/AudioScene
+C:/Users/xocog/Documents/GitHub/TrioDinamico/Audio/AudioScene
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 40.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.7f1 (dd97f2c94397)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/xocog/Documents/GitHub/TrioDinamico/Audio/AudioScene/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 Ti (ID=0x1b06)
+    Vendor:   
+    VRAM:     11127 MB
+    Driver:   27.21.14.6627
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003461 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 37.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.810 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001170 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001FF71545020 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF710AC010 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF7166B020 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF6B73C020 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF71919030 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF709AD020 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF6B80FC30 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF7032A020 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF71919030 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF70351630 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF6FEDC430 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF70BF8030 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF703D2020 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.069 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1213 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.7 MB.
+System memory in use after: 74.4 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1671.
+Total: 2.912200 ms (FindLiveObjects: 0.297400 ms CreateObjectMapping: 0.061200 ms MarkObjects: 2.128200 ms  DeleteObjects: 0.423700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Audio/SFX/walking_water01.wav
+  artifactKey: Guid(34e54ba9a457de34a8d39f162a11c6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/walking_water01.wav using Guid(34e54ba9a457de34a8d39f162a11c6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3760dafe38aed1e620bb10f63864e379') in 0.168874 seconds
+  Import took 0.172011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Audio/SFX/NotTheWay.wav
+  artifactKey: Guid(cc910f837e28c1040b4eaa38d649f876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/NotTheWay.wav using Guid(cc910f837e28c1040b4eaa38d649f876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7840fa722e1de47e8cd10ca89d19e404') in 0.009254 seconds
+  Import took 0.011402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Audio/SFX/walking_water03.wav
+  artifactKey: Guid(73abd22f8ccfa114296088c256479039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/walking_water03.wav using Guid(73abd22f8ccfa114296088c256479039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8791fa02810934a92852868c2ba5886c') in 0.008976 seconds
+  Import took 0.011663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000480 seconds.
+  path: Assets/Audio/SFX/walking_water02.wav
+  artifactKey: Guid(2fd534a404a9ab74390fc5a40030961b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/walking_water02.wav using Guid(2fd534a404a9ab74390fc5a40030961b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b409970c4321b93a3fffe6291349f39') in 0.008877 seconds
+  Import took 0.011423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Audio/SFX/water_step.wav
+  artifactKey: Guid(258ce5cc1976b43478b18b8af72813e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/water_step.wav using Guid(258ce5cc1976b43478b18b8af72813e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75623bed1bbe34f61d7ad28d4c73a6e6') in 0.009662 seconds
+  Import took 0.012121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Audio
+  artifactKey: Guid(241214e913076f1428e473149f32446a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio using Guid(241214e913076f1428e473149f32446a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2f5f23c1c2e4141ab39214875f7e94') in 0.003300 seconds
+  Import took 0.005796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Audio/SFX
+  artifactKey: Guid(97318c44ce5124345b7f695122394fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX using Guid(97318c44ce5124345b7f695122394fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81089380478ae6194509cb9a39cb8936') in 0.003537 seconds
+  Import took 0.005981 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 52.6 MB.
+System memory in use after: 52.4 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1680.
+Total: 2.582200 ms (FindLiveObjects: 0.207400 ms CreateObjectMapping: 0.034700 ms MarkObjects: 2.038200 ms  DeleteObjects: 0.299900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001215 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001FF6B5E0E50 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF6632FF80 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF6B4978E0 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF6BA39420 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF6FFAF010 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF709AD020 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF6BE64010 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF6BDD3D00 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF6B9DFB90 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF6FF83040 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF6FEDC430 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF6FEDC430 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF7037E020 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.017 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.2 MB.
+System memory in use after: 75.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1683.
+Total: 2.582300 ms (FindLiveObjects: 0.228300 ms CreateObjectMapping: 0.033500 ms MarkObjects: 1.991300 ms  DeleteObjects: 0.327300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001144 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001FF6B5FF010 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF96FA2130 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF6B4978E0 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF95E4AAA0 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF73DE8200 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF95C29EC0 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF6FFAF010 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF7032A020 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF73DE8200 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF72CE0760 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF6FEDC430 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF73F85900 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF95C85A40 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.034 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.2 MB.
+System memory in use after: 76.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1686.
+Total: 2.222300 ms (FindLiveObjects: 0.183300 ms CreateObjectMapping: 0.032200 ms MarkObjects: 1.604800 ms  DeleteObjects: 0.400000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001542 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001FF73932010 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF70BEBFD0 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF6B4978E0 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF95E43020 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF72923CA0 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF6FE71020 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF748765A0 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF965AA010 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF72923CA0 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF72CE0760 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF6FEDC430 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF73F85900 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF967A4020 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.053 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.2 MB.
+System memory in use after: 76.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1689.
+Total: 3.051600 ms (FindLiveObjects: 0.310700 ms CreateObjectMapping: 0.061500 ms MarkObjects: 2.230200 ms  DeleteObjects: 0.447100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001282 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001FF707EA1A0 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF72CDA880 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF95C95A50 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF7161D020 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF6BE06920 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF71CF9050 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF6FFAF010 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF97EBEDE0 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF6BE06920 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF6B4978E0 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF746DB090 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF73B42DC0 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF969E56D0 doesn't match image C:\Users\xocog\Documents\GitHub\TrioDinamico\Audio\AudioScene\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.010 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.2 MB.
+System memory in use after: 76.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1692.
+Total: 2.586300 ms (FindLiveObjects: 0.306600 ms CreateObjectMapping: 0.053200 ms MarkObjects: 1.821300 ms  DeleteObjects: 0.403400 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
