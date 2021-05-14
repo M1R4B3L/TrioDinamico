@@ -15,44 +15,36 @@ public class SnapshotManager : MonoBehaviour
     {
         tag = other.gameObject.tag;
 
-
-
         switch (tag)
         {
 
             case "In_Factory":
-                FactorySnap.TransitionTo(1f);
+             FactorySnap.TransitionTo(0.5f);
                 break;
 
             case "In_House":
-                HouseSnap.TransitionTo(1f);
+                HouseSnap.TransitionTo(0.5f);
                 break;
 
             case "In_Forest":
-                ForestSnap.TransitionTo(1f);
+                ForestSnap.TransitionTo(0.5f);
                 break;
 
             case "In_Water":
-                WaterSnap.TransitionTo(1f);
+                WaterSnap.TransitionTo(0.5f);
                 break;
 
             default:
-                General.TransitionTo(1f);
+                General.TransitionTo(0.5f);
                 break;
-
-
-
-
-
         }
 
-      
+        Debug.Log(tag);
     }
 
     private void OnTriggerExit(Collider other)
     {
-        General.TransitionTo(1f);
+      General.TransitionTo(0.1f);
     }
-
-   
+  
 }
