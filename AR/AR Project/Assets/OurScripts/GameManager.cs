@@ -9,22 +9,25 @@ public class GameManager : MonoBehaviour
     //Tap to play Screen
 
     public Text[] Texts;
+    public GameObject[] monsterObject;
+    public SwitchMonster[] selectMonsters;
 
     private Touch touch_info;
 
     private Scene currentScene;
 
 
+
     void Start()
-    {
+    {  
         currentScene = SceneManager.GetActiveScene();
-       // Debug.Log("Current Scene Name ->"+ currentScene.name);
+        // Debug.Log("Current Scene Name ->"+ currentScene.name);
+
+        MonsterSelection();
     }
 
-    
     void Update()
     {
-
 
         if (Input.touchCount > 0)
         {
@@ -37,15 +40,10 @@ public class GameManager : MonoBehaviour
                 
             }
 
-
-
             if (touch_info.phase == TouchPhase.Ended)
             {
                 
                 GoToNextScene();
-
-                
-
 
             }
 
@@ -62,11 +60,8 @@ public class GameManager : MonoBehaviour
       
     }
 
-
     void GoToNextScene()
     {
-
-       
 
         if (currentScene.name == "InitialScene")
         {
@@ -77,6 +72,18 @@ public class GameManager : MonoBehaviour
             SceneManager.LoadScene("MainScene", LoadSceneMode.Single);
         }
 
-      
+    }
+
+    private void MonsterSelection()
+    {
+        for(int i = 0; i < selectMonsters.Length; i++)
+        {
+            selectMonsters[i].monsterModel = Instantiate(monsterObject[i], selectMonsters[i].spawnPoint.position, selectMonsters[i].spawnPoint.rotation) as GameObject;
+            selectMonsters[i].monsterId = i++;
+
+            selectMonsters[i].CreateMonster();
+
+            Debug.Log(selectMonsters[i].monsterId);
+        }
     }
 }

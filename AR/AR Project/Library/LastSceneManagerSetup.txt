@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/PartyMonsterDuoPA/Scene/DefaultPolyart.unity
+- path: Assets/Scenes/SelectionScreen.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
