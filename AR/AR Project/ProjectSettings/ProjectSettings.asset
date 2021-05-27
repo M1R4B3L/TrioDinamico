@@ -8,7 +8,7 @@ PlayerSettings:
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
-  defaultScreenOrientation: 0
+  defaultScreenOrientation: 3
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
@@ -858,7 +858,7 @@ PlayerSettings:
     2293910: Assets/Common/Icons/UWP/Wide310x150Logo.scale-150.png
     2293960: Assets/Common/Icons/UWP/Wide310x150Logo.scale-200.png
     2294160: Assets/Common/Icons/UWP/Wide310x150Logo.scale-400.png
-  metroTileShortName: 
+  metroTileShortName: AR Project
   metroTileShowName: 0
   metroMediumTileShowName: 1
   metroLargeTileShowName: 0
@@ -872,7 +872,7 @@ PlayerSettings:
   metroSplashScreenUseBackgroundColor: 1
   platformCapabilities:
     WindowsStoreApps:
-      CodeGeneration: False
+      EnterpriseAuthentication: False
       OfflineMapsManagement: False
       HumanInterfaceDevice: False
       Location: False
@@ -905,10 +905,10 @@ PlayerSettings:
       PointOfService: False
       RecordedCallsFolder: False
       Contacts: False
-      Proximity: False
       InternetClient: True
+      CodeGeneration: False
       BackgroundMediaPlayback: False
-      EnterpriseAuthentication: False
+      Proximity: False
   metroTargetDeviceFamilies:
     Desktop: False
     Holographic: False
