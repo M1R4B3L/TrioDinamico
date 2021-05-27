@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/amusedART/StoneMonster/Scene/Scene_StoneMonster.unity
+- path: Assets/PartyMonsterDuoPA/Scene/DefaultPolyart.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
