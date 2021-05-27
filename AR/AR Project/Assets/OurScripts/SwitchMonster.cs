@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SwitchMonster : MonoBehaviour
 {
-    public Transform spawnPoint;
+    public Transform[] spawnPoint;
     [HideInInspector] public int monsterId;
     [HideInInspector] public GameObject monsterModel;
+
 
     struct Stats
     {
@@ -28,13 +30,5 @@ public class SwitchMonster : MonoBehaviour
     public void CreateMonster()
     {
         monsterStats = new Stats(Random.Range(1, 30), Random.Range(1, 30), Random.Range(1, 30), Random.Range(1, 30));
-    }
-    void SwitchMonsterLeft()
-    {
-        
-    }
-    void SwitchMonsterRight()
-    {
-
     }
 }

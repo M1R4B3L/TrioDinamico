@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
 {
     //Tap to play Screen
 
+    public GameObject target;
     public Text[] Texts;
     public GameObject[] monsterObject;
     public SwitchMonster[] selectMonsters;
@@ -16,14 +17,15 @@ public class GameManager : MonoBehaviour
 
     private Scene currentScene;
 
-
+    private GameObject currentMonster;
 
     void Start()
     {  
         currentScene = SceneManager.GetActiveScene();
         // Debug.Log("Current Scene Name ->"+ currentScene.name);
 
-        MonsterSelection();
+        if (currentScene.name == "SelectionScreen")
+            MonsterSelection();
     }
 
     void Update()
@@ -76,14 +78,46 @@ public class GameManager : MonoBehaviour
 
     private void MonsterSelection()
     {
-        for(int i = 0; i < selectMonsters.Length; i++)
+        for(int i = 0; i < selectMonsters.Length; ++i)
         {
-            selectMonsters[i].monsterModel = Instantiate(monsterObject[i], selectMonsters[i].spawnPoint.position, selectMonsters[i].spawnPoint.rotation) as GameObject;
-            selectMonsters[i].monsterId = i++;
+            selectMonsters[i].monsterModel = Instantiate(monsterObject[i], selectMonsters[i].spawnPoint[i].position, selectMonsters[i].spawnPoint[i].rotation) as GameObject;
+            selectMonsters[i].monsterId = i;
 
             selectMonsters[i].CreateMonster();
 
+            selectMonsters[i].monsterModel.transform.SetParent(target.transform);
+
+            Debug.Log("Monster id:");
             Debug.Log(selectMonsters[i].monsterId);
         }
+    }
+    public void SwitchMonsterLeft()
+    {
+        for (int i = 0; i < 3; ++i)
+        {
+            selectMonsters[i].monsterId++;
+            if (selectMonsters[i].monsterId == 3)
+                selectMonsters[i].monsterId = 0;
+
+            selectMonsters[i].monsterModel.transform.position = selectMonsters[i].spawnPoint[selectMonsters[i].monsterId].position;
+        }
+    }
+    public void SwitchMonsterRight()
+    {
+        for (int i = 0; i < 3; ++i)
+        {
+            selectMonsters[i].monsterId--;
+            if (selectMonsters[i].monsterId < 0)
+                selectMonsters[i].monsterId = 3 - 1;
+   
+            selectMonsters[i].monsterModel.transform.position = selectMonsters[i].spawnPoint[selectMonsters[i].monsterId].position;
+        }
+
+    }
+    public void SelectMonster()
+    {
+        currentMonster = selectMonsters[0].monsterModel;
+
+        SceneManager.LoadScene("MainScene", LoadSceneMode.Single);
     }
 }

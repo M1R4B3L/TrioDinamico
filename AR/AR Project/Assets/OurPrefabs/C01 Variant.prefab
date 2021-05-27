@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 128f73365e5f908458adbee08f709cf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPoint: {fileID: 8487540628407211598, guid: 36d709345a2d37142a146fd04081f743,
-    type: 3}
+  spawnPoint:
+  - {fileID: 8487540628407211598, guid: 36d709345a2d37142a146fd04081f743, type: 3}
+  - {fileID: 4971452701312370227, guid: 0801318516f9aa242b456b83fc4d0fd0, type: 3}
+  - {fileID: 1080726602335344299, guid: 978515cd6c43bfe4c84376461971958e, type: 3}
   monsterId: 0
   monsterModel: {fileID: 0}
 --- !u!1001 &7719587379381849218
@@ -61,7 +63,7 @@ PrefabInstance:
     - target: {fileID: 5762902411667128209, guid: 1235f6fdfe904874cab3c83e4a67727c,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5762902411667128209, guid: 1235f6fdfe904874cab3c83e4a67727c,
         type: 3}
@@ -71,7 +73,7 @@ PrefabInstance:
     - target: {fileID: 5762902411667128209, guid: 1235f6fdfe904874cab3c83e4a67727c,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5762902411667128209, guid: 1235f6fdfe904874cab3c83e4a67727c,
         type: 3}
@@ -86,7 +88,7 @@ PrefabInstance:
     - target: {fileID: 5762902411667128209, guid: 1235f6fdfe904874cab3c83e4a67727c,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5762902411667128209, guid: 1235f6fdfe904874cab3c83e4a67727c,
         type: 3}
