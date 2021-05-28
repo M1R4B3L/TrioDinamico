@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
+using Vuforia;
 
 public class GameManager : MonoBehaviour
 {
@@ -27,6 +28,9 @@ public class GameManager : MonoBehaviour
 
     public GameObject levelObject;
     private TextMeshProUGUI levelText;
+    public GameObject selectButton;
+
+   
 
     void Start()
     {  
@@ -61,6 +65,7 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
+
         if(currentScene.name == "MainScene")
         {
             DrawLevel();
@@ -145,7 +150,7 @@ public class GameManager : MonoBehaviour
             if (selectMonsters[i].monsterId == 0)
             {
                 animatorMonstrz = selectMonsters[i].monsterModel.GetComponent<Animator>();
-                animatorMonstrz.SetTrigger("FoodGiven");
+                animatorMonstrz.SetTrigger("MonstrzSelected");
             }
             
         }
@@ -163,11 +168,13 @@ public class GameManager : MonoBehaviour
             if (selectMonsters[i].monsterId == 0)
             {
                 animatorMonstrz = selectMonsters[i].monsterModel.GetComponent<Animator>();
-                animatorMonstrz.SetTrigger("FoodGiven");
+                animatorMonstrz.SetTrigger("MonstrzSelected");
             }
         }
 
     }
+
+ 
     public void SelectMonster()
     {
         SceneManager.LoadScene("MainScene", LoadSceneMode.Single);
@@ -271,5 +278,12 @@ public class GameManager : MonoBehaviour
         animatorMonstrz = currentMonster.monsterModel.GetComponent<Animator>();
         animatorMonstrz.SetTrigger("PetGiven");
         currentMonster.monsterStats.level++;
+    }
+
+    public void TargetDetectedSelectButton(bool found)
+    {
+      
+
+        selectButton.SetActive(found);
     }
 }
