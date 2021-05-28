@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
 {
     //Tap to play Screen
 
-    public Animator animatorMonstrz;
+    [HideInInspector] public Animator animatorMonstrz;
     public GameObject target;
     //public Text[] Texts;
     public GameObject[] monsterObject;
@@ -55,28 +55,33 @@ public class GameManager : MonoBehaviour
                 }
             }
 
-            DrawLevel();
+           
         }
     }
 
     void Update()
     {
-     
-       
-        if (Input.touchCount > 0)
+        DrawLevel();
+
+        if (Input.touchCount > 0 )
         {
             touch_info = Input.GetTouch(0);
 
-            if(touch_info.phase == TouchPhase.Began)
+            if (currentScene.name == "MainScene" && panels[2].activeSelf==true)
             {
-                Ray raycast = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
-                RaycastHit raycastHit;
-                if (Physics.Raycast(raycast, out raycastHit))
+                if (touch_info.phase == TouchPhase.Began)
                 {
-                    currentMonster.monsterModel.GetComponent<MeshRenderer>().material.color =  new Color(1,1,1,1);
-                    Debug.Log("Hit");   
-                }
+                    Ray raycast = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
+                    RaycastHit raycastHit;
+                    if (Physics.Raycast(raycast, out raycastHit))
+                    {
+                        animatorMonstrz = currentMonster.monsterModel.GetComponent<Animator>();
+                        animatorMonstrz.SetTrigger("PetGiven");
+                        currentMonster.monsterModel.GetComponent<MeshRenderer>().material.color = new Color(1, 1, 1, 1);
+                        Debug.Log("Hit");
+                    }
 
+                }
             }
 
             if (touch_info.phase == TouchPhase.Ended)
@@ -255,5 +260,12 @@ public class GameManager : MonoBehaviour
             animatorMonstrz.SetTrigger("PotatoGiven");
             currentMonster.monsterStats.energy += 5;
         }
+    }
+
+    public void MonstrzPet()
+    {
+        animatorMonstrz = currentMonster.monsterModel.GetComponent<Animator>();
+        animatorMonstrz.SetTrigger("PetGiven");
+        currentMonster.monsterStats.level++;
     }
 }
