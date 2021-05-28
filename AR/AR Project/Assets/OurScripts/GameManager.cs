@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour
 
     private Scene currentScene;
 
-    private GameObject currentMonster;
+    private SwitchMonster currentMonster;
 
     void Start()
     {  
@@ -26,6 +26,21 @@ public class GameManager : MonoBehaviour
 
         if (currentScene.name == "SelectionScreen")
             MonsterSelection();
+
+        if(currentScene.name == "MainScene")
+        {
+            for (int i = 0; i < 3; i++)
+            {
+                if (selectMonsters[i].monsterId == 0)
+                {
+                    selectMonsters[i].monsterModel = Instantiate(selectMonsters[i].gameObject, selectMonsters[i].spawnPoint[0].position, selectMonsters[i].spawnPoint[0].rotation) as GameObject;
+
+                    selectMonsters[i].CreateMonster();
+
+                    currentMonster = selectMonsters[i];
+                }
+            }
+        }
     }
 
     void Update()
@@ -59,7 +74,15 @@ public class GameManager : MonoBehaviour
 
             }
         }
-      
+
+        if (currentScene.name == "MainScene")
+        {
+            Debug.Log("health" + currentMonster.monsterStats.health);
+            Debug.Log("attack" + currentMonster.monsterStats.attack);
+            Debug.Log("speed" + currentMonster.monsterStats.speed);
+            Debug.Log("energy" + currentMonster.monsterStats.energy);
+        }
+
     }
 
     void GoToNextScene()
@@ -80,10 +103,8 @@ public class GameManager : MonoBehaviour
     {
         for(int i = 0; i < selectMonsters.Length; ++i)
         {
-            selectMonsters[i].monsterModel = Instantiate(monsterObject[i], selectMonsters[i].spawnPoint[i].position, selectMonsters[i].spawnPoint[i].rotation) as GameObject;
+            selectMonsters[i].monsterModel = Instantiate(selectMonsters[i].gameObject, selectMonsters[i].spawnPoint[i].position, selectMonsters[i].spawnPoint[i].rotation) as GameObject;
             selectMonsters[i].monsterId = i;
-
-            selectMonsters[i].CreateMonster();
 
             selectMonsters[i].monsterModel.transform.SetParent(target.transform);
 
@@ -116,8 +137,7 @@ public class GameManager : MonoBehaviour
     }
     public void SelectMonster()
     {
-        currentMonster = selectMonsters[0].monsterModel;
-
         SceneManager.LoadScene("MainScene", LoadSceneMode.Single);
     }
+
 }

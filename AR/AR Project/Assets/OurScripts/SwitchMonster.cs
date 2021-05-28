@@ -10,22 +10,22 @@ public class SwitchMonster : MonoBehaviour
     [HideInInspector] public GameObject monsterModel;
 
 
-    struct Stats
+    public struct Stats
     {
-        int health;
-        int armor;
-        int speed;
-        int energy;
-        public Stats(int health_, int armor_, int speed_, int energy_)
+        public int health;
+        public int attack;
+        public int speed;
+        public int energy;
+        public Stats(int health_, int attack_, int speed_, int energy_)
         {
             health = health_;
-            armor = armor_;
+            attack = attack_;
             speed = speed_;
             energy = energy_;
         }
     }
 
-    private Stats monsterStats;
+    public Stats monsterStats;
 
     public void CreateMonster()
     {
