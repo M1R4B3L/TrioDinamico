@@ -17,7 +17,13 @@ public class GameManager : MonoBehaviour
 
     private Scene currentScene;
 
-    private SwitchMonster currentMonster;
+    [HideInInspector] public SwitchMonster currentMonster;
+
+    public GameObject[] panels;
+
+    private GameObject currentPanel;
+   
+    
 
     void Start()
     {  
@@ -29,6 +35,8 @@ public class GameManager : MonoBehaviour
 
         if(currentScene.name == "MainScene")
         {
+            currentPanel = panels[0];
+
             for (int i = 0; i < 3; i++)
             {
                 if (selectMonsters[i].monsterId == 0)
@@ -77,6 +85,9 @@ public class GameManager : MonoBehaviour
 
         if (currentScene.name == "MainScene")
         {
+           // PanelManager();
+
+
             Debug.Log("health" + currentMonster.monsterStats.health);
             Debug.Log("attack" + currentMonster.monsterStats.attack);
             Debug.Log("speed" + currentMonster.monsterStats.speed);
@@ -139,5 +150,66 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene("MainScene", LoadSceneMode.Single);
     }
+
+  public  void PanelManager (GameObject panel){
+
+        currentPanel = panel;
+
+        if (currentPanel == panels[0])
+        {
+            panels[0].SetActive(true);
+            panels[1].SetActive(false);
+            panels[2].SetActive(false);
+            panels[3].SetActive(false);
+            panels[4].SetActive(false);
+            panels[5].SetActive(false);
+        }
+        else if (currentPanel == panels[1])
+        {
+            panels[0].SetActive(false);
+            panels[1].SetActive(true);
+            panels[2].SetActive(false);
+            panels[3].SetActive(false);
+            panels[4].SetActive(false);
+            panels[5].SetActive(false);
+        }
+        else if (currentPanel == panels[2])
+        {
+            panels[0].SetActive(false);
+            panels[1].SetActive(false);
+            panels[2].SetActive(true);
+            panels[3].SetActive(false);
+            panels[4].SetActive(false);
+            panels[5].SetActive(false);
+        }
+        else if (currentPanel == panels[3])
+        {
+            panels[0].SetActive(false);
+            panels[1].SetActive(false);
+            panels[2].SetActive(false);
+            panels[3].SetActive(true);
+            panels[4].SetActive(false);
+            panels[5].SetActive(false);
+        }
+        else if (currentPanel == panels[4])
+        {
+            panels[0].SetActive(false);
+            panels[1].SetActive(false);
+            panels[2].SetActive(false);
+            panels[3].SetActive(false);
+            panels[4].SetActive(true);
+            panels[5].SetActive(false);
+        }
+        else if (currentPanel == panels[5])
+        {
+            panels[0].SetActive(false);
+            panels[1].SetActive(false);
+            panels[2].SetActive(false);
+            panels[3].SetActive(false);
+            panels[4].SetActive(false);
+            panels[5].SetActive(true);
+        }
+
+  }
 
 }
