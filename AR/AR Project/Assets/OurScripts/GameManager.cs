@@ -47,9 +47,10 @@ public class GameManager : MonoBehaviour
 
                     selectMonsters[i].CreateMonster();
 
-                    currentMonster = selectMonsters[i];
+                    selectMonsters[i].monsterModel.transform.SetParent(target.transform);
 
-                    currentMonster.monsterModel.transform.SetParent(target.transform);
+                    currentMonster = selectMonsters[i];
+ 
                 }
             }
 
@@ -67,9 +68,12 @@ public class GameManager : MonoBehaviour
             if(touch_info.phase == TouchPhase.Began)
             {
                 Ray raycast = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
-                RaycastHit raycastHit = new RaycastHit();
+                RaycastHit raycastHit;
                 if (Physics.Raycast(raycast, out raycastHit))
-                    Debug.Log("Hit");
+                {
+                    currentMonster.monsterModel.GetComponent<MeshRenderer>().material.color =  new Color(1,1,1,1);
+                    Debug.Log("Hit");   
+                }
 
             }
 
@@ -188,7 +192,7 @@ public class GameManager : MonoBehaviour
             panels[4].SetActive(false);
             panels[5].SetActive(false);
         }
-        //Food Panel
+        //Feed Panel
         else if (currentPanel == panels[4])
         {
             panels[0].SetActive(false);
@@ -197,6 +201,7 @@ public class GameManager : MonoBehaviour
             panels[3].SetActive(false);
             panels[4].SetActive(true);
             panels[5].SetActive(false);
+
         }
         //Fight Panel
         else if (currentPanel == panels[5])
