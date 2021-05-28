@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
 {
     //Tap to play Screen
 
+    public Animator animatorMonstrz;
     public GameObject target;
     //public Text[] Texts;
     public GameObject[] monsterObject;
@@ -60,7 +61,8 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-
+     
+       
         if (Input.touchCount > 0)
         {
             touch_info = Input.GetTouch(0);
@@ -129,6 +131,14 @@ public class GameManager : MonoBehaviour
                 selectMonsters[i].monsterId = 0;
 
             selectMonsters[i].monsterModel.transform.position = selectMonsters[i].spawnPoint[selectMonsters[i].monsterId].position;
+
+            
+            if (selectMonsters[i].monsterId == 0)
+            {
+                animatorMonstrz = selectMonsters[i].monsterModel.GetComponent<Animator>();
+                animatorMonstrz.SetTrigger("FoodGiven");
+            }
+            
         }
     }
     public void SwitchMonsterRight()
@@ -140,6 +150,12 @@ public class GameManager : MonoBehaviour
                 selectMonsters[i].monsterId = 3 - 1;
    
             selectMonsters[i].monsterModel.transform.position = selectMonsters[i].spawnPoint[selectMonsters[i].monsterId].position;
+
+            if (selectMonsters[i].monsterId == 0)
+            {
+                animatorMonstrz = selectMonsters[i].monsterModel.GetComponent<Animator>();
+                animatorMonstrz.SetTrigger("FoodGiven");
+            }
         }
 
     }
@@ -224,5 +240,20 @@ public class GameManager : MonoBehaviour
     public void ExitApp()
     {
         Application.Quit();
+    }
+
+    public void MonstrzFed(string foodType)
+    {
+        if (foodType == "Meat")
+        {
+            animatorMonstrz = currentMonster.monsterModel.GetComponent<Animator>();
+            animatorMonstrz.SetTrigger("MeatGiven");
+            currentMonster.monsterStats.health += 5;
+        }
+        else {
+            animatorMonstrz = currentMonster.monsterModel.GetComponent<Animator>();
+            animatorMonstrz.SetTrigger("PotatoGiven");
+            currentMonster.monsterStats.energy += 5;
+        }
     }
 }

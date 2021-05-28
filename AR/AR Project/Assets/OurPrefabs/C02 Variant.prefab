@@ -16,7 +16,7 @@ MonoBehaviour:
   - {fileID: 8487540628407211598, guid: 36d709345a2d37142a146fd04081f743, type: 3}
   - {fileID: 4971452701312370227, guid: 0801318516f9aa242b456b83fc4d0fd0, type: 3}
   - {fileID: 1080726602335344299, guid: 978515cd6c43bfe4c84376461971958e, type: 3}
-  monsterId: 2
+  monsterId: 1
   monsterModel: {fileID: 0}
 --- !u!1001 &7672504852983845858
 PrefabInstance:
@@ -25,6 +25,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5030645071554350878, guid: 379cfb6848589a948b84691a4df3bed9,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 071443b31f15b8e469d92417bad2089b, type: 2}
     - target: {fileID: 5030645071561653432, guid: 379cfb6848589a948b84691a4df3bed9,
         type: 3}
       propertyPath: m_Name
