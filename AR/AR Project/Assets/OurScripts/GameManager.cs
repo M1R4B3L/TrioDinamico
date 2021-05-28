@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
     //Tap to play Screen
 
     public GameObject target;
-    public Text[] Texts;
+    //public Text[] Texts;
     public GameObject[] monsterObject;
     public SwitchMonster[] selectMonsters;
 
@@ -22,8 +23,9 @@ public class GameManager : MonoBehaviour
     public GameObject[] panels;
 
     private GameObject currentPanel;
-   
-    
+
+    public GameObject levelObject;
+    private TextMeshProUGUI levelText;
 
     void Start()
     {  
@@ -46,8 +48,12 @@ public class GameManager : MonoBehaviour
                     selectMonsters[i].CreateMonster();
 
                     currentMonster = selectMonsters[i];
+
+                    currentMonster.monsterModel.transform.SetParent(target.transform);
                 }
             }
+
+            DrawLevel();
         }
     }
 
@@ -57,41 +63,28 @@ public class GameManager : MonoBehaviour
         if (Input.touchCount > 0)
         {
             touch_info = Input.GetTouch(0);
-            
-            for(int text_num=0; text_num< Texts.Length; ++text_num)
-            {
 
-                Texts[text_num].color = Color.red;
-                
+            if(touch_info.phase == TouchPhase.Began)
+            {
+                Ray raycast = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
+                RaycastHit raycastHit = new RaycastHit();
+                if (Physics.Raycast(raycast, out raycastHit))
+                    Debug.Log("Hit");
+
             }
 
             if (touch_info.phase == TouchPhase.Ended)
             {
-                
-                GoToNextScene();
-
-            }
-
-        }
-        else
-        {
-            for (int text_num = 0; text_num < Texts.Length; ++text_num)
-            {
-
-                Texts[text_num].color = Color.white;
-
+                if (currentScene.name == "InitialScene")
+                {
+                    GoToNextScene();
+                }
             }
         }
 
         if (currentScene.name == "MainScene")
         {
            // PanelManager();
-
-
-            Debug.Log("health" + currentMonster.monsterStats.health);
-            Debug.Log("attack" + currentMonster.monsterStats.attack);
-            Debug.Log("speed" + currentMonster.monsterStats.speed);
-            Debug.Log("energy" + currentMonster.monsterStats.energy);
         }
 
     }
@@ -151,10 +144,11 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("MainScene", LoadSceneMode.Single);
     }
 
-  public  void PanelManager (GameObject panel){
+    public  void PanelManager (GameObject panel){
 
         currentPanel = panel;
 
+        //Main Panel
         if (currentPanel == panels[0])
         {
             panels[0].SetActive(true);
@@ -164,6 +158,7 @@ public class GameManager : MonoBehaviour
             panels[4].SetActive(false);
             panels[5].SetActive(false);
         }
+        //Stats Panel
         else if (currentPanel == panels[1])
         {
             panels[0].SetActive(false);
@@ -173,6 +168,7 @@ public class GameManager : MonoBehaviour
             panels[4].SetActive(false);
             panels[5].SetActive(false);
         }
+        //Pet Panel
         else if (currentPanel == panels[2])
         {
             panels[0].SetActive(false);
@@ -182,6 +178,7 @@ public class GameManager : MonoBehaviour
             panels[4].SetActive(false);
             panels[5].SetActive(false);
         }
+        //Train Panel
         else if (currentPanel == panels[3])
         {
             panels[0].SetActive(false);
@@ -191,6 +188,7 @@ public class GameManager : MonoBehaviour
             panels[4].SetActive(false);
             panels[5].SetActive(false);
         }
+        //Food Panel
         else if (currentPanel == panels[4])
         {
             panels[0].SetActive(false);
@@ -200,6 +198,7 @@ public class GameManager : MonoBehaviour
             panels[4].SetActive(true);
             panels[5].SetActive(false);
         }
+        //Fight Panel
         else if (currentPanel == panels[5])
         {
             panels[0].SetActive(false);
@@ -210,6 +209,15 @@ public class GameManager : MonoBehaviour
             panels[5].SetActive(true);
         }
 
-  }
+    }
+    private void DrawLevel()
+    {
+        levelText = levelObject.GetComponent<TextMeshProUGUI>();
+        levelText.text = "Level " + currentMonster.monsterStats.level.ToString();
+    }
 
+    public void ExitApp()
+    {
+        Application.Quit();
+    }
 }

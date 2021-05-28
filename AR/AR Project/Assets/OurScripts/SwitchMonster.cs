@@ -16,12 +16,14 @@ public class SwitchMonster : MonoBehaviour
         public int attack;
         public int speed;
         public int energy;
-        public Stats(int health_, int attack_, int speed_, int energy_)
+        public int level;
+        public Stats(int health_, int attack_, int speed_, int energy_, int level_)
         {
             health = health_;
             attack = attack_;
             speed = speed_;
             energy = energy_;
+            level = level_;
         }
     }
 
@@ -29,6 +31,6 @@ public class SwitchMonster : MonoBehaviour
 
     public void CreateMonster()
     {
-        monsterStats = new Stats(Random.Range(1, 30), Random.Range(1, 30), Random.Range(1, 30), Random.Range(1, 30));
+        monsterStats = new Stats(Random.Range(1, 30), Random.Range(1, 30), Random.Range(1, 30), Random.Range(1, 30), 0);
     }
 }

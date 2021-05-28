@@ -44,7 +44,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  Texts: []
   monsterObject:
   - {fileID: 2655024707661361011, guid: 1bd8d70a61b60334f9033fbcde5b1fcb, type: 3}
   - {fileID: 3434636321070542682, guid: ae392473cbcc215499d4140d1b5d5c6e, type: 3}
@@ -53,3 +52,12 @@ MonoBehaviour:
   - {fileID: -550764968660411570, guid: 1bd8d70a61b60334f9033fbcde5b1fcb, type: 3}
   - {fileID: -3559974000720528813, guid: ae392473cbcc215499d4140d1b5d5c6e, type: 3}
   - {fileID: 611543318673497070, guid: da6e7ca42187f824794fa218f8e56bcd, type: 3}
+  currentMonster: {fileID: 0}
+  panels:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  levelObject: {fileID: 0}
