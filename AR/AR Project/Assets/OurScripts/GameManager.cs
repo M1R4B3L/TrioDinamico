@@ -61,7 +61,11 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        DrawLevel();
+        if(currentScene.name == "MainScene")
+        {
+            DrawLevel();
+        }
+       
 
         if (Input.touchCount > 0 )
         {
