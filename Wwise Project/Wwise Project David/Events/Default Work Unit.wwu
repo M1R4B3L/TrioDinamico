@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{0727CBE8-AF7B-4F5F-8D40-70A8781F2B9B}" SchemaVersion="103">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{0727CBE8-AF7B-4F5F-8D40-70A8781F2B9B}" PersistMode="Standalone">
-			<ChildrenList>
-				<Folder Name="Player" ID="{FEC1A691-749E-42C5-A3F7-EC37D68C3CF8}" ShortID="99912272">
-					<ChildrenList>
-						<Event Name="Player_Health" ID="{53DC536F-DF21-477D-B656-0A5C3750958D}"/>
-					</ChildrenList>
-				</Folder>
-			</ChildrenList>
-		</WorkUnit>
+		<WorkUnit Name="Default Work Unit" ID="{0727CBE8-AF7B-4F5F-8D40-70A8781F2B9B}" PersistMode="Standalone"/>
 	</Events>
 </WwiseDocument>

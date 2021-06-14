@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{67F11325-FCBF-4560-A572-C36BE4AF1F69}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Player" ID="{67F11325-FCBF-4560-A572-C36BE4AF1F69}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Player" ID="{FEC1A691-749E-42C5-A3F7-EC37D68C3CF8}" ShortID="99912272">
+					<ChildrenList>
+						<Event Name="Player_Health" ID="{53DC536F-DF21-477D-B656-0A5C3750958D}"/>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
