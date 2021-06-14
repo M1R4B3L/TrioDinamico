@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="103">
-	<ValidationCacheItem File="D:\grome\Documents\GitHub\TrioDinamico\Wwise Project\Wwise Project David\Wwise Project David.wproj" DateLow="1622115891" DateHigh="0"/>
-	<ValidationCacheItem File="D:\grome\Documents\GitHub\TrioDinamico\Wwise Project\Wwise Project David\Wwise Project David.grome.wsettings" DateLow="1623679549" DateHigh="0"/>
+	<ValidationCacheItem File="D:\grome\Documents\GitHub\TrioDinamico\Wwise Project\Wwise Project David\Wwise Project David.wproj" DateLow="1623679907" DateHigh="0"/>
+	<ValidationCacheItem File="D:\grome\Documents\GitHub\TrioDinamico\Wwise Project\Wwise Project David\Wwise Project David.grome.wsettings" DateLow="1623679959" DateHigh="0"/>
 	<ValidationCacheItem File="D:\grome\Documents\GitHub\TrioDinamico\Wwise Project\Wwise Project David\Virtual Acoustics\Default Work Unit.wwu" DateLow="1622115891" DateHigh="0"/>
 	<ValidationCacheItem File="D:\grome\Documents\GitHub\TrioDinamico\Wwise Project\Wwise Project David\Triggers\Default Work Unit.wwu" DateLow="1622115891" DateHigh="0"/>
 	<ValidationCacheItem File="D:\grome\Documents\GitHub\TrioDinamico\Wwise Project\Wwise Project David\Switches\Default Work Unit.wwu" DateLow="1622115891" DateHigh="0"/>
@@ -18,7 +18,9 @@
 	<ValidationCacheItem File="D:\grome\Documents\GitHub\TrioDinamico\Wwise Project\Wwise Project David\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1623679579" DateHigh="0"/>
 	<ValidationCacheItem File="D:\grome\Documents\GitHub\TrioDinamico\Wwise Project\Wwise Project David\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1623677682" DateHigh="0"/>
 	<ValidationCacheItem File="D:\grome\Documents\GitHub\TrioDinamico\Wwise Project\Wwise Project David\Game Parameters\Default Work Unit.wwu" DateLow="1623679579" DateHigh="0"/>
-	<ValidationCacheItem File="D:\grome\Documents\GitHub\TrioDinamico\Wwise Project\Wwise Project David\Events\Default Work Unit.wwu" DateLow="1623679579" DateHigh="0"/>
+	<ValidationCacheItem File="D:\grome\Documents\GitHub\TrioDinamico\Wwise Project\Wwise Project David\Events\Player.wwu" DateLow="1623679938" DateHigh="0"/>
+	<ValidationCacheItem File="D:\grome\Documents\GitHub\TrioDinamico\Wwise Project\Wwise Project David\Events\Music.wwu" DateLow="1623679946" DateHigh="0"/>
+	<ValidationCacheItem File="D:\grome\Documents\GitHub\TrioDinamico\Wwise Project\Wwise Project David\Events\Default Work Unit.wwu" DateLow="1623679938" DateHigh="0"/>
 	<ValidationCacheItem File="D:\grome\Documents\GitHub\TrioDinamico\Wwise Project\Wwise Project David\Effects\Factory Effects.wwu" DateLow="1622115488" DateHigh="0"/>
 	<ValidationCacheItem File="D:\grome\Documents\GitHub\TrioDinamico\Wwise Project\Wwise Project David\Effects\Default Work Unit.wwu" DateLow="1622115891" DateHigh="0"/>
 	<ValidationCacheItem File="D:\grome\Documents\GitHub\TrioDinamico\Wwise Project\Wwise Project David\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1622115891" DateHigh="0"/>
