@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6D8884E3-A8A8-4209-9153-8EACDE63A8D6}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Ambient" ID="{6D8884E3-A8A8-4209-9153-8EACDE63A8D6}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Ambient" ID="{C1B2D8D5-EA15-47DD-B5BB-C83353F1762D}" ShortID="238949552">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<ActorMixer Name="Ambient" ID="{8C104266-099D-46BB-B2DE-A8236DCCB67B}" ShortID="969614276">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Ambient Emitters" ID="{B70682DB-F480-4E70-A55E-777394CAD6AE}" WorkUnitID="{195C8F12-2568-46D2-82DA-4AB35D69220B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{ED23C150-21E2-41C1-BC4B-7CDEC6BA0480}" WorkUnitID="{770A06DB-E682-4B53-85DF-E541696196F3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="BAS_dungeonLava_001" ID="{EB2773F2-6051-47B5-8FC7-8FC27D5F4FDF}" ShortID="894441291">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Ambience_Emitter_Large" ID="{5D8B804C-18A0-43D0-A793-8DC78D3A09E5}" WorkUnitID="{4540D339-8847-4702-BEA1-023DDB1F5880}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{195C8F12-2568-46D2-82DA-4AB35D69220B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{770A06DB-E682-4B53-85DF-E541696196F3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_dungeonLava_001" ID="{B5D0A49F-49D2-41E6-B451-F9B2ED973307}">
+											<Language>SFX</Language>
+											<AudioFile>Ambient Emitters\BAS_dungeonLava_001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="101518132"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_dungeonLava_001" ID="{B5D0A49F-49D2-41E6-B451-F9B2ED973307}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Water_RiverLoop" ID="{ABCB230E-BBA9-4A97-9DFD-03AA4CAFE277}" ShortID="900467787">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Ambience_Emitter_Large" ID="{5D8B804C-18A0-43D0-A793-8DC78D3A09E5}" WorkUnitID="{4540D339-8847-4702-BEA1-023DDB1F5880}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{195C8F12-2568-46D2-82DA-4AB35D69220B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{770A06DB-E682-4B53-85DF-E541696196F3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Water_RiverLoop" ID="{F3AC1E04-727C-46F1-8B80-DD936809F5B8}">
+											<Language>SFX</Language>
+											<AudioFile>Ambient Emitters\Water_RiverLoop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="531100831"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Water_RiverLoop" ID="{F3AC1E04-727C-46F1-8B80-DD936809F5B8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<BlendContainer Name="Ambient_Windmill" ID="{41E78D30-10CA-4A9D-AAD5-110D3C282623}" ShortID="594290215">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="CenterPercentage" Type="int32">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Ambience_Emitter_Large" ID="{5D8B804C-18A0-43D0-A793-8DC78D3A09E5}" WorkUnitID="{4540D339-8847-4702-BEA1-023DDB1F5880}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{195C8F12-2568-46D2-82DA-4AB35D69220B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{770A06DB-E682-4B53-85DF-E541696196F3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Windmill" ID="{4C5DDAA2-2648-4C62-BF53-7946EAC55F83}" ShortID="690528284">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>430</Value>
+													</ValueList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-13</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{195C8F12-2568-46D2-82DA-4AB35D69220B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{770A06DB-E682-4B53-85DF-E541696196F3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="BAS_windMillBlade_004" ID="{6EEA7E1E-F30B-46C8-B299-0A05472EB639}" ShortID="1026462886">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{195C8F12-2568-46D2-82DA-4AB35D69220B}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{770A06DB-E682-4B53-85DF-E541696196F3}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BAS_windMillBlade_004" ID="{B6116C2C-AB86-477C-99E2-C2BF147FD79A}">
+															<Language>SFX</Language>
+															<AudioFile>Ambient Emitters\BAS_windMillBlade_004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="952887520"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="BAS_windMillBlade_004" ID="{B6116C2C-AB86-477C-99E2-C2BF147FD79A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="BAS_windMillBlade_003" ID="{60803A8A-F659-4D18-9B1E-93DBA8742361}" ShortID="907723092">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{195C8F12-2568-46D2-82DA-4AB35D69220B}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{770A06DB-E682-4B53-85DF-E541696196F3}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BAS_windMillBlade_003" ID="{4EE9E14F-1E93-4D6F-930A-0367E43EECD9}">
+															<Language>SFX</Language>
+															<AudioFile>Ambient Emitters\BAS_windMillBlade_003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="668095612"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="BAS_windMillBlade_003" ID="{4EE9E14F-1E93-4D6F-930A-0367E43EECD9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<Sound Name="BAS_windMillBlade_001" ID="{5EA9125C-CD9C-4309-9870-365A064CA3F6}" ShortID="288001847">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>29</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-12</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{195C8F12-2568-46D2-82DA-4AB35D69220B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{770A06DB-E682-4B53-85DF-E541696196F3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_windMillBlade_001" ID="{3787DF5E-A624-41B9-8B81-03AFD5957C73}">
+													<Language>SFX</Language>
+													<AudioFile>Ambient Emitters\BAS_windMillBlade_001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="706636367"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_windMillBlade_001" ID="{3787DF5E-A624-41B9-8B81-03AFD5957C73}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</BlendContainer>
+								<Sound Name="BAS_amb_torch" ID="{0D108E14-C03A-4D0A-A477-313CFAA0ECCE}" ShortID="896360961">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Ambience_Emitter_Small" ID="{76B2979B-EB91-4F17-8FC6-F8BA4733B040}" WorkUnitID="{4540D339-8847-4702-BEA1-023DDB1F5880}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Ambient Emitters" ID="{B70682DB-F480-4E70-A55E-777394CAD6AE}" WorkUnitID="{195C8F12-2568-46D2-82DA-4AB35D69220B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{ED23C150-21E2-41C1-BC4B-7CDEC6BA0480}" WorkUnitID="{770A06DB-E682-4B53-85DF-E541696196F3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_amb_torch" ID="{F60D2EE9-730E-4822-94E5-23FDB56297D1}">
+											<Language>SFX</Language>
+											<AudioFile>Ambient Emitters\BAS_amb_torch.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1002950602"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_amb_torch" ID="{F60D2EE9-730E-4822-94E5-23FDB56297D1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_amb_campfire" ID="{953DE0F2-A711-4BC6-8157-BBB7AE384C0B}" ShortID="223761165">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Ambience_Emitter_Medium" ID="{FE7B8C95-F335-47A4-A622-B4B010923583}" WorkUnitID="{4540D339-8847-4702-BEA1-023DDB1F5880}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Ambient Emitters" ID="{B70682DB-F480-4E70-A55E-777394CAD6AE}" WorkUnitID="{195C8F12-2568-46D2-82DA-4AB35D69220B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{ED23C150-21E2-41C1-BC4B-7CDEC6BA0480}" WorkUnitID="{770A06DB-E682-4B53-85DF-E541696196F3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_amb_torch" ID="{B999A9C7-59C6-4369-BAA9-305B21A5C32E}">
+											<Language>SFX</Language>
+											<AudioFile>Ambient Emitters\BAS_amb_torch.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1002950602"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_amb_torch" ID="{B999A9C7-59C6-4369-BAA9-305B21A5C32E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</ActorMixer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

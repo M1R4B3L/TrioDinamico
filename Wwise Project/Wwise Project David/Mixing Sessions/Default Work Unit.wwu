@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D0B03C1E-8010-4E7E-B1BD-9DDA7D221B18}" SchemaVersion="103">
 	<MixingSessions>
-		<WorkUnit Name="Default Work Unit" ID="{D0B03C1E-8010-4E7E-B1BD-9DDA7D221B18}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{D0B03C1E-8010-4E7E-B1BD-9DDA7D221B18}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="Ambient_Emitters" ID="{170A2B68-FDB7-4FFD-A62C-FAE0860CE709}">
+					<ObjectList>
+						<ObjectRef Name="BAS_dungeonLava_001" ID="{EB2773F2-6051-47B5-8FC7-8FC27D5F4FDF}" WorkUnitID="{6D8884E3-A8A8-4209-9153-8EACDE63A8D6}"/>
+						<ObjectRef Name="Ambient_Windmill" ID="{41E78D30-10CA-4A9D-AAD5-110D3C282623}" WorkUnitID="{6D8884E3-A8A8-4209-9153-8EACDE63A8D6}"/>
+						<ObjectRef Name="BAS_amb_torch" ID="{0D108E14-C03A-4D0A-A477-313CFAA0ECCE}" WorkUnitID="{6D8884E3-A8A8-4209-9153-8EACDE63A8D6}"/>
+						<ObjectRef Name="Water_RiverLoop" ID="{ABCB230E-BBA9-4A97-9DFD-03AA4CAFE277}" WorkUnitID="{6D8884E3-A8A8-4209-9153-8EACDE63A8D6}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
 	</MixingSessions>
 </WwiseDocument>

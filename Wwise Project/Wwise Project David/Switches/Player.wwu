@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{843924D5-353C-4E54-B89B-275E78B03A6F}" SchemaVersion="103">
+	<Switches>
+		<WorkUnit Name="Player" ID="{843924D5-353C-4E54-B89B-275E78B03A6F}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Player_Weapon_Type" ID="{F539417C-DE2B-4670-A4E8-7096A1394F70}">
+					<ChildrenList>
+						<Switch Name="Axe" ID="{FA23CBDB-4779-442C-96E4-1D5F55327F8E}"/>
+						<Switch Name="Sword" ID="{3162A08A-ADED-4F50-A8E7-E99A72BBC34B}"/>
+						<Switch Name="Dagger" ID="{C579500D-EE98-4A30-8E4C-313A292AB22D}"/>
+						<Switch Name="PickAxe" ID="{17C2E17A-DA5C-4D5A-B459-8939BFF2D571}"/>
+						<Switch Name="Hammer" ID="{9B9ED7CE-0C4A-4A0B-8621-FFC06E0548D7}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

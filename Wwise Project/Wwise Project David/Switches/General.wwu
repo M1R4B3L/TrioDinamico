@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FDD42B8F-07E5-4EAF-926A-A3847CF74024}" SchemaVersion="103">
+	<Switches>
+		<WorkUnit Name="General" ID="{FDD42B8F-07E5-4EAF-926A-A3847CF74024}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Surface_Type" ID="{77D920B2-D862-4BD1-945B-6904C59A6951}">
+					<ChildrenList>
+						<Switch Name="Enemy_EvilHead" ID="{1BA6FD80-6927-4377-904A-71743B869CC4}"/>
+						<Switch Name="Enemy_EvilCrawler" ID="{8F2E40AD-6F1E-470D-BC0C-EA5D898EF086}"/>
+						<Switch Name="Leaves" ID="{559E2DBF-DACD-44D2-9739-1623AB8EB56B}"/>
+						<Switch Name="Rubble" ID="{943D6CAD-D7C0-410F-9DBA-5442A398FEB7}"/>
+						<Switch Name="Crate" ID="{CC3D80D8-26CB-4AFD-8C64-F55300E35C92}"/>
+						<Switch Name="Crystal" ID="{F401222B-6134-4F58-81AC-9CF090630502}"/>
+						<Switch Name="Metal" ID="{CEFE1464-7A64-4868-BC7D-5D89406086D1}"/>
+						<Switch Name="Sand" ID="{844DC273-5334-4502-B7D9-F561B22E9CCF}"/>
+						<Switch Name="Water" ID="{106CB152-EB05-43E4-B37A-69EE051F3607}"/>
+						<Switch Name="Wood" ID="{9A19D148-0993-4940-8483-A10D4FF7F88F}"/>
+						<Switch Name="Stone" ID="{173EB602-CDC2-4F7D-989E-AE2136F28270}"/>
+						<Switch Name="Barrel" ID="{D5A9573D-53B3-487A-8BE6-534B300A357D}"/>
+						<Switch Name="Enemy_EvilSpitPlant" ID="{A5D78ABE-BF70-40B6-B0CA-E2CBE036E38B}"/>
+						<Switch Name="Dirt" ID="{3C6F23A8-7450-4683-927C-392E3FC322AE}"/>
+						<Switch Name="Agent" ID="{C434A7F7-1DFD-4060-8A88-FC7FA003AC28}"/>
+						<Switch Name="Grass" ID="{E139B05E-CF88-4CAC-A885-A591E6C09964}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="DayOrNight" ID="{03127938-EFA2-47D8-8B4C-3A408A44CD77}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Day" ID="{27630F5C-F1E1-4E7F-911F-580074240909}"/>
+						<Switch Name="Night" ID="{FF9B80FC-E0C9-4E38-A242-6B491FA8DE8A}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="Time_of_Day" ID="{425619AB-DD5A-41D8-8A54-085867950AB8}"/>
+						<Curve Name="" ID="{791D3A13-27B8-4314-88C1-6A143F094233}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>2</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>8</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>19.89873</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>24</XPos>
+									<YPos>2</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
