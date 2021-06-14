@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     //Tap to play Screen
 
     [HideInInspector] public Animator animatorMonstrz;
+    [HideInInspector] public Animator animatorEnemyMonstrz;
     public GameObject target;
     //public Text[] Texts;
     public GameObject[] monsterObject;
@@ -21,6 +22,7 @@ public class GameManager : MonoBehaviour
     private Scene currentScene;
 
     [HideInInspector] public SwitchMonster currentMonster;
+    
 
     public GameObject[] panels;
 
@@ -30,8 +32,14 @@ public class GameManager : MonoBehaviour
     private TextMeshProUGUI levelText;
     public GameObject selectButton;
 
-   
 
+    //COMBAT SCENE
+
+    public GameObject[] fightPositions;
+    [HideInInspector] public SwitchMonster enemyMonster;
+    private bool playerWin;
+    private bool fightComplete=false;
+    private int originalHP;
     void Start()
     {  
         currentScene = SceneManager.GetActiveScene();
@@ -58,19 +66,61 @@ public class GameManager : MonoBehaviour
  
                 }
             }
+        }
 
+        if (currentScene.name == "CombatScene")
+        {
+            for (int i = 0; i < 3; i++)
+            {
+                if (selectMonsters[i].monsterId == 0)
+                {
+                    
+
+
+
+                    selectMonsters[i].monsterModel = Instantiate(selectMonsters[i].gameObject, fightPositions[0].transform.position, selectMonsters[i].spawnPoint[0].rotation) as GameObject;
+
+                    selectMonsters[i].CreateMonster();
+
+                    selectMonsters[i].monsterModel.transform.SetParent(target.transform);
+
+                    selectMonsters[i].monsterModel.transform.Rotate(0, -90, 0);
+                    currentMonster = selectMonsters[i];
+
+                   originalHP= currentMonster.monsterStats.health;
+
+                    if (i == 0) {
+
+                        SelectEnemyType(1,2,0);
+
+                    }
+                    else if (i == 1)
+                    {
+
+                        SelectEnemyType(0, 2,1);
+
+                    }
+                    else
+                    {
+                        SelectEnemyType(0, 1,2);
+                    }
+
+                }
+
+               
+            }
+            
            
         }
     }
 
     void Update()
     {
-
-        if(currentScene.name == "MainScene")
+     
+        if (currentScene.name == "MainScene")
         {
             DrawLevel();
         }
-       
 
         if (Input.touchCount > 0 )
         {
@@ -107,9 +157,45 @@ public class GameManager : MonoBehaviour
            // PanelManager();
         }
 
+
+        if (currentScene.name == "CombatScene")
+        {
+            if (fightComplete == false)
+            {
+
+                animatorMonstrz = currentMonster.monsterModel.GetComponent<Animator>();
+                if (animatorMonstrz.GetCurrentAnimatorStateInfo(0).IsName("Idle03"))
+                {
+                    if (fightComplete == false)
+                    {
+                        panels[1].SetActive(true);
+                    }
+                }
+                else
+                {
+
+                    panels[1].SetActive(false);
+                }
+            }
+            else
+            {
+                panels[0].SetActive(true);
+                if (playerWin == true)
+                {
+                    panels[2].SetActive(true);
+                }
+                else
+                {
+                    panels[3].SetActive(true);
+                }
+
+            }
+        }
+
     }
 
-    void GoToNextScene()
+    
+    public void GoToNextScene()
     {
 
         if (currentScene.name == "InitialScene")
@@ -120,6 +206,196 @@ public class GameManager : MonoBehaviour
         {
             SceneManager.LoadScene("MainScene", LoadSceneMode.Single);
         }
+        else if (currentScene.name == "MainScene")
+        {
+            SceneManager.LoadScene("CombatScene", LoadSceneMode.Single);
+        }
+        else if (currentScene.name == "CombatScene")
+        {
+            currentMonster.monsterStats.health = originalHP;
+            SceneManager.LoadScene("MainScene", LoadSceneMode.Single);
+        }
+
+    }
+
+    public void CombatManager(string moveType)
+    {
+
+        panels[1].SetActive(false);
+
+        if(fightComplete == false) { 
+
+            if (moveType == "attack")
+            {
+                animatorMonstrz = currentMonster.monsterModel.GetComponent<Animator>();
+                animatorMonstrz.SetTrigger("AttackAction");
+            }
+            else if (moveType == "dodge")
+            {
+                animatorMonstrz = currentMonster.monsterModel.GetComponent<Animator>();
+                animatorMonstrz.SetTrigger("DodgeAction");
+            }
+            else if (moveType == "block")
+            {
+                animatorMonstrz = currentMonster.monsterModel.GetComponent<Animator>();
+                animatorMonstrz.SetTrigger("BlockAction");
+            }
+            else
+            {
+                animatorMonstrz = currentMonster.monsterModel.GetComponent<Animator>();
+                animatorMonstrz.SetTrigger("GrabAction");
+            }
+           
+            int attackEnemyChosen;
+            attackEnemyChosen = Random.Range(0, 4); //attack,dodge,block,grab
+           
+            if (attackEnemyChosen == 0)
+            {
+                animatorEnemyMonstrz = enemyMonster.monsterModel.GetComponent<Animator>();
+                animatorEnemyMonstrz.SetTrigger("AttackAction");
+            }
+            else if (attackEnemyChosen == 1)
+            {
+                animatorEnemyMonstrz = enemyMonster.monsterModel.GetComponent<Animator>();
+                animatorEnemyMonstrz.SetTrigger("DodgeAction");
+            }
+            else if (attackEnemyChosen == 2)
+            {
+                animatorEnemyMonstrz = enemyMonster.monsterModel.GetComponent<Animator>();
+                animatorEnemyMonstrz.SetTrigger("BlockAction");
+            }
+            else
+            {
+                animatorEnemyMonstrz = enemyMonster.monsterModel.GetComponent<Animator>();
+                animatorEnemyMonstrz.SetTrigger("GrabAction");
+            }
+           
+            SetNewStatsFight(moveType, attackEnemyChosen);
+       
+
+        }
+    }
+
+
+
+    private void SetNewStatsFight(string moveType, int attackEnemyChosen)
+    {
+
+
+        int healthToRemovePlayer=7; //remove to the player
+
+        int healthToRemoveEnemy=7; //remove to the enemy
+
+        if (moveType == "attack") {
+
+            
+            if (attackEnemyChosen == 0) //attack
+            {
+              
+            }
+            else if (attackEnemyChosen == 1) //dodge
+            {
+                healthToRemoveEnemy = 9;
+                healthToRemovePlayer = 0;
+            }
+            else if (attackEnemyChosen == 2) //block
+            {
+                healthToRemoveEnemy = 4;
+                healthToRemovePlayer = 0;
+            }
+            else //grab
+            {
+              
+            }
+
+        }
+        else if (moveType == "dodge")
+        {
+            healthToRemoveEnemy = 0;
+
+            if (attackEnemyChosen == 0) //attack
+            {
+                healthToRemovePlayer = 9;
+            }
+            else if (attackEnemyChosen == 1) //dodge
+            {
+                healthToRemovePlayer = 0;
+            }
+            else if (attackEnemyChosen == 2) //block
+            {
+                healthToRemovePlayer = 0;
+            }
+            else //grab
+            {
+                healthToRemovePlayer = 4;
+            }
+
+        }
+        else if (moveType == "block")
+        {
+            healthToRemoveEnemy = 0;
+
+            if (attackEnemyChosen == 0) //attack
+            {
+                healthToRemovePlayer = 4;
+            }
+            else if (attackEnemyChosen == 1) //dodge
+            {
+                healthToRemovePlayer = 0;
+            }
+            else if (attackEnemyChosen == 2) //block
+            {
+                healthToRemovePlayer = 0;
+            }
+            else //grab
+            {
+                healthToRemovePlayer = 9;
+            }
+
+
+        }
+        else //grab
+        {
+
+
+
+            if (attackEnemyChosen == 0) //attack
+            {
+                
+            }
+            else if (attackEnemyChosen == 1) //dodge
+            {
+                healthToRemoveEnemy = 4;
+                healthToRemovePlayer = 0;
+            }
+            else if (attackEnemyChosen == 2) //block
+            {
+                healthToRemoveEnemy = 9;
+                healthToRemovePlayer = 0;
+            }
+            else //grab
+            {
+
+            }
+
+
+        }
+
+
+        enemyMonster.monsterStats.health -= healthToRemoveEnemy;
+        currentMonster.monsterStats.health -= healthToRemovePlayer;
+
+        if (enemyMonster.monsterStats.health <= 0)
+        {
+            fightComplete = true;
+            playerWin = true;
+        }
+        else if (currentMonster.monsterStats.health <= 0)
+        {
+            fightComplete = true;
+            playerWin = false;
+        }
+
 
     }
 
@@ -245,6 +521,29 @@ public class GameManager : MonoBehaviour
             panels[4].SetActive(false);
             panels[5].SetActive(true);
         }
+
+    }
+
+    private void SelectEnemyType(int type1,int type2,int typeWrong)
+    {
+        int enemyType = typeWrong;
+        
+        while (enemyType == typeWrong)
+        {
+            enemyType = Random.Range(0, 3);
+        }
+       
+
+
+        selectMonsters[enemyType].monsterModel = Instantiate(selectMonsters[enemyType].gameObject, fightPositions[1].transform.position, selectMonsters[enemyType].spawnPoint[0].rotation) as GameObject;
+
+        selectMonsters[enemyType].CreateMonster();
+
+        selectMonsters[enemyType].monsterModel.transform.SetParent(target.transform);
+
+        selectMonsters[enemyType].monsterModel.transform.Rotate(0, 90, 0);
+        enemyMonster = selectMonsters[enemyType];
+
 
     }
     private void DrawLevel()

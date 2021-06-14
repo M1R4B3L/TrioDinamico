@@ -47,9 +47,9 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: Imbecimals_TargetResized
+  mTrackableName: MonstrzTargetResized
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Imbecimals.xml
+  mDataSetPath: Vuforia/Monstrz.xml
   mAspectRatio: 1.50177
   mImageTargetType: 0
   mWidth: 0.1
