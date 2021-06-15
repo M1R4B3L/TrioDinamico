@@ -40,6 +40,9 @@ public class GameManager : MonoBehaviour
     private bool playerWin;
     private bool fightComplete=false;
     private int originalHP;
+    public Slider playerSlider;
+    public Slider enemySlider;
+
     void Start()
     {  
         currentScene = SceneManager.GetActiveScene();
@@ -54,7 +57,7 @@ public class GameManager : MonoBehaviour
 
             for (int i = 0; i < 3; i++)
             {
-                if (selectMonsters[i].monsterId == 0)
+                if (selectMonsters[i].monsterId == 0) //PLAYER MONSTER SELECTION
                 {
                     selectMonsters[i].monsterModel = Instantiate(selectMonsters[i].gameObject, selectMonsters[i].spawnPoint[0].position, selectMonsters[i].spawnPoint[0].rotation) as GameObject;
 
@@ -68,9 +71,9 @@ public class GameManager : MonoBehaviour
             }
         }
 
-        if (currentScene.name == "CombatScene")
+        if (currentScene.name == "CombatScene") 
         {
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < 3; i++) //PLAYER MONSTER SELECTION
             {
                 if (selectMonsters[i].monsterId == 0)
                 {
@@ -87,9 +90,17 @@ public class GameManager : MonoBehaviour
                     selectMonsters[i].monsterModel.transform.Rotate(0, -90, 0);
                     currentMonster = selectMonsters[i];
 
-                   originalHP= currentMonster.monsterStats.health;
+                    if (currentMonster.monsterStats.health < 30)
+                    {
+                        currentMonster.monsterStats.health = 30;
+                    }
 
-                    if (i == 0) {
+                    originalHP = currentMonster.monsterStats.health;
+
+                    playerSlider.maxValue=playerSlider.value= currentMonster.monsterStats.health;
+
+
+                    if (i == 0) { //ENEMY MONSTER SELECTION
 
                         SelectEnemyType(1,2,0);
 
@@ -179,6 +190,8 @@ public class GameManager : MonoBehaviour
             }
             else
             {
+                panels[4].SetActive(false);
+
                 panels[0].SetActive(true);
                 if (playerWin == true)
                 {
@@ -544,8 +557,14 @@ public class GameManager : MonoBehaviour
         selectMonsters[enemyType].monsterModel.transform.Rotate(0, 90, 0);
         enemyMonster = selectMonsters[enemyType];
 
+        if (enemyMonster.monsterStats.health < 30)
+        {
+            enemyMonster.monsterStats.health = 30;
+        }
 
+        enemySlider.maxValue = enemySlider.value = enemyMonster.monsterStats.health;
     }
+
     private void DrawLevel()
     {
         levelText = levelObject.GetComponent<TextMeshProUGUI>();
