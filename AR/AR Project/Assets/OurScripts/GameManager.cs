@@ -43,6 +43,9 @@ public class GameManager : MonoBehaviour
     public Slider playerSlider;
     public Slider enemySlider;
 
+    public GameObject[] HitParticles; //Player,Enemy
+
+
     void Start()
     {  
         currentScene = SceneManager.GetActiveScene();
@@ -73,6 +76,17 @@ public class GameManager : MonoBehaviour
 
         if (currentScene.name == "CombatScene") 
         {
+
+            ParticleSystem PlayerPart1 = HitParticles[0].GetComponent<ParticleSystem>();
+            ParticleSystem PlayerPart2 = HitParticles[1].GetComponent<ParticleSystem>();
+            ParticleSystem EnemyPart1 = HitParticles[2].GetComponent<ParticleSystem>();
+            ParticleSystem EnemyPart2 = HitParticles[3].GetComponent<ParticleSystem>();
+
+            PlayerPart1.Stop();
+            PlayerPart2.Stop();
+            EnemyPart1.Stop();
+            EnemyPart2.Stop();
+
             for (int i = 0; i < 3; i++) //PLAYER MONSTER SELECTION
             {
                 if (selectMonsters[i].monsterId == 0)
@@ -195,10 +209,15 @@ public class GameManager : MonoBehaviour
                 panels[0].SetActive(true);
                 if (playerWin == true)
                 {
+                    animatorEnemyMonstrz = enemyMonster.monsterModel.GetComponent<Animator>();
+                    animatorEnemyMonstrz.SetTrigger("Die");
+
                     panels[2].SetActive(true);
                 }
                 else
                 {
+                    animatorMonstrz = currentMonster.monsterModel.GetComponent<Animator>();
+                    animatorMonstrz.SetTrigger("Die");
                     panels[3].SetActive(true);
                 }
 
@@ -293,7 +312,10 @@ public class GameManager : MonoBehaviour
 
     private void SetNewStatsFight(string moveType, int attackEnemyChosen)
     {
-
+      ParticleSystem PlayerPart1=  HitParticles[0].GetComponent<ParticleSystem>();
+      ParticleSystem PlayerPart2 = HitParticles[1].GetComponent<ParticleSystem>();
+      ParticleSystem EnemyPart1 = HitParticles[2].GetComponent<ParticleSystem>();
+      ParticleSystem EnemyPart2 = HitParticles[3].GetComponent<ParticleSystem>();
 
         int healthToRemovePlayer=7; //remove to the player
 
@@ -301,10 +323,14 @@ public class GameManager : MonoBehaviour
 
         if (moveType == "attack") {
 
-            
+           
+            EnemyPart1.Play();
+            EnemyPart2.Play();
+
             if (attackEnemyChosen == 0) //attack
             {
-              
+                PlayerPart1.Play();
+                PlayerPart2.Play();
             }
             else if (attackEnemyChosen == 1) //dodge
             {
@@ -318,7 +344,8 @@ public class GameManager : MonoBehaviour
             }
             else //grab
             {
-              
+                PlayerPart1.Play();
+                PlayerPart2.Play();
             }
 
         }
@@ -328,6 +355,8 @@ public class GameManager : MonoBehaviour
 
             if (attackEnemyChosen == 0) //attack
             {
+                PlayerPart1.Play();
+                PlayerPart2.Play();
                 healthToRemovePlayer = 9;
             }
             else if (attackEnemyChosen == 1) //dodge
@@ -340,6 +369,8 @@ public class GameManager : MonoBehaviour
             }
             else //grab
             {
+                PlayerPart1.Play();
+                PlayerPart2.Play();
                 healthToRemovePlayer = 4;
             }
 
@@ -350,6 +381,8 @@ public class GameManager : MonoBehaviour
 
             if (attackEnemyChosen == 0) //attack
             {
+                PlayerPart1.Play();
+                PlayerPart2.Play();
                 healthToRemovePlayer = 4;
             }
             else if (attackEnemyChosen == 1) //dodge
@@ -362,6 +395,8 @@ public class GameManager : MonoBehaviour
             }
             else //grab
             {
+                PlayerPart1.Play();
+                PlayerPart2.Play();
                 healthToRemovePlayer = 9;
             }
 
@@ -370,11 +405,13 @@ public class GameManager : MonoBehaviour
         else //grab
         {
 
-
+            EnemyPart1.Play();
+            EnemyPart2.Play();
 
             if (attackEnemyChosen == 0) //attack
             {
-                
+                PlayerPart1.Play();
+                PlayerPart2.Play();
             }
             else if (attackEnemyChosen == 1) //dodge
             {
@@ -388,7 +425,8 @@ public class GameManager : MonoBehaviour
             }
             else //grab
             {
-
+                PlayerPart1.Play();
+                PlayerPart2.Play();
             }
 
 
