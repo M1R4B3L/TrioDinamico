@@ -1210,3 +1210,586 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.05.23-15.15.10:715][864]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/EAHCBN229IT8APJO305AH5CC6FB63945BEF5631E62BBBE204CF487.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/8C/EAHCBN229IT8APJO305AH5.uasset'
 [2022.05.23-15.15.10:738][864]AssetCheck: New page: Asset Save: BP_Rifle_C_1
 [2022.05.23-15.15.10:738][864]LogContentValidation: Display: Validating BP_Rifle_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Rifle_C_1
+[2022.05.23-15.19.12:676][106]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.05.23-15.19.12:705][106]LogContentBrowser: Creating deferred item: NewFolder
+[2022.05.23-15.19.12:717][107]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.05.23-15.19.18:303][655]LogContentBrowser: Attempting asset rename: NewFolder -> Materials
+[2022.05.23-15.19.18:303][655]LogContentBrowser: End creating deferred item NewFolder
+[2022.05.23-15.19.20:766][830]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/VP/FVTPO8KZ0WPMCSQLVJE6O9
+[2022.05.23-15.19.20:767][830]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/FVTPO8KZ0WPMCSQLVJE6O924A287C54F27D0ED0C4327AD239BE7BD.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/VP/FVTPO8KZ0WPMCSQLVJE6O9.uasset'
+[2022.05.23-15.19.20:769][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OurStuff/Materials/AnimatedMat" FILE="C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/OurStuff/Materials/AnimatedMat.uasset" SILENT=true
+[2022.05.23-15.19.20:772][830]LogSavePackage: Moving output files for package: /Game/OurStuff/Materials/AnimatedMat
+[2022.05.23-15.19.20:772][830]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/AnimatedMat4B72B13E4339DD888C4CEB8ADAAC1A72.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/OurStuff/Materials/AnimatedMat.uasset'
+[2022.05.23-15.19.20:837][830]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2022.05.23-15.19.20:882][830]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2022.05.23-15.19.20:920][830]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.05.23-15.19.20:952][830]AssetCheck: New page: Asset Save: multiple assets
+[2022.05.23-15.19.20:952][830]LogContentValidation: Display: Validating Material /Game/OurStuff/Materials/AnimatedMat.AnimatedMat
+[2022.05.23-15.19.20:952][830]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_16
+[2022.05.23-15.19.23:049][951]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2022.05.23-15.19.23:050][951]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/BP_FirstPersonCharacterEA4CCF0145BB854E7E541BB07D24D06D.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2022.05.23-15.19.23:051][951]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OurStuff/Materials/Red_SemiTransp" FILE="C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/OurStuff/Materials/Red_SemiTransp.uasset" SILENT=true
+[2022.05.23-15.19.23:053][951]LogSavePackage: Moving output files for package: /Game/OurStuff/Materials/Red_SemiTransp
+[2022.05.23-15.19.23:053][951]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/Red_SemiTransp8BA761B3470CAEA85E9D19A7BEEAF89F.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/OurStuff/Materials/Red_SemiTransp.uasset'
+[2022.05.23-15.19.23:115][951]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2022.05.23-15.19.23:158][951]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2022.05.23-15.19.23:197][951]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.05.23-15.19.23:224][951]AssetCheck: New page: Asset Save: multiple assets
+[2022.05.23-15.19.23:224][951]LogContentValidation: Display: Validating Material /Game/OurStuff/Materials/Red_SemiTransp.Red_SemiTransp
+[2022.05.23-15.19.23:224][951]LogContentValidation: Display: Validating Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2022.05.23-15.19.27:121][218]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/OurStuff/Test.Test
+[2022.05.23-15.19.27:122][218]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.23-15.19.29:284][404]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2022.05.23-15.19.29:284][404]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.23-15.19.29:408][405]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.05.23-15.19.33:833][792]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2022.05.23-15.19.34:685][792]LogSlate: Window 'Delete Assets' being destroyed
+[2022.05.23-15.19.34:738][792]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2022.05.23-15.19.34:782][792]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2022.05.23-15.19.34:824][792]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2022.05.23-15.19.56:325][634]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2022.05.23-15.19.56:325][634]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.23-15.20.03:472][300]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2022.05.23-15.20.03:586][300]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2022.05.23-15.20.17:524][647]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.05.23-15.20.17:533][647]LogWorldPartition: Display: GenerateStreaming started...
+[2022.05.23-15.20.17:533][647]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.05.23-15.20.17:533][647]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.23-15.20.17:533][647]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.05.23-15.20.17:533][647]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.05.23-15.20.17:533][647]LogWorldPartition: Display: GetPartitionedActors took 66 us
+[2022.05.23-15.20.17:534][647]LogWorldPartition: Display: GenerateStreaming took 446 us
+[2022.05.23-15.20.17:534][647]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.23-15.20.17:534][647]PIE: New page: PIE session: FirstPersonMap (23 may. 2022 19:20:17)
+[2022.05.23-15.20.17:534][647]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.05.23-15.20.17:542][647]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.05.23-15.20.17:542][647]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007454s)
+[2022.05.23-15.20.17:542][647]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.007523s)
+[2022.05.23-15.20.17:542][647]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.23-15.20.17:542][647]LogAIModule: Creating AISystem for world FirstPersonMap
+[2022.05.23-15.20.17:543][647]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.05.23-15.20.17:543][647]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.05.23-15.20.17:545][647]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.05.23-15.20.17:545][647]LogPlayLevel: PIE: World Init took: (0.003084s)
+[2022.05.23-15.20.17:592][647]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2022.05.23-15.20.17:595][647]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2022.05.23-15.20.17:595][647]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.23-15.20.17:595][647]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.23-15.20.17:595][647]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.23-15.20.17:595][647]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.23-15.20.17:595][647]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.23-15.20.17:595][647]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.23-15.20.17:595][647]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.23-15.20.17:595][647]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.23-15.20.17:596][647]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.23-15.20.17:596][647]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.23-15.20.17:596][647]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.23-15.20.17:598][647]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.23-15.20.17:631][647]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Razer Audio Controller - Game)
+[2022.05.23-15.20.17:632][647]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.23-15.20.17:632][647]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.23-15.20.17:632][647]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.23-15.20.17:633][647]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2022.05.23-15.20.17:633][647]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2022.05.23-15.20.17:635][647]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2022.05.23-15.20.17:635][647]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2022.05.23-15.20.17:635][647]LogInit: FAudioDevice initialized.
+[2022.05.23-15.20.17:635][647]LogAudio: Display: Audio Device (ID: 9) registered with world 'FirstPersonMap'.
+[2022.05.23-15.20.17:652][647]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.05.23-15.20.17:655][647]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2022.05.23-17.20.17
+[2022.05.23-15.20.17:655][647]LogWorld: Bringing up level for play took: 0.003434
+[2022.05.23-15.20.17:657][647]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2022.05.23-15.20.17:660][647]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=2170.000 Z=98.337
+[2022.05.23-15.20.17:660][647]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.23-15.20.17:660][647]PIE: Server logged in
+[2022.05.23-15.20.17:661][647]PIE: Play in editor total start time 0,13 seconds.
+[2022.05.23-15.20.36:337][613]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.23-15.20.36:337][613]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.05.23-15.20.36:337][613]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.23-15.20.36:337][613]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.23-15.20.36:354][613]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.23-15.20.36:362][613]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.23-15.20.36:410][613]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.23-15.20.36:410][613]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2022.05.23-15.20.36:412][613]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2022.05.23-15.20.36:416][613]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.23-15.20.36:420][613]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2022.05.23-15.20.36:483][614]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2022.05.23-15.21.53:331][643]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2022.05.23-15.21.53:340][643]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/8C/EAHCBN229IT8APJO305AH5_Auto1
+[2022.05.23-15.21.53:341][643]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/EAHCBN229IT8APJO305AH5_Auto172B198334AD6B985F1E7FA9645D2D417.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/8C/EAHCBN229IT8APJO305AH5_Auto1.uasset'
+[2022.05.23-15.21.53:342][643]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.061
+[2022.05.23-15.21.53:342][643]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.061
+[2022.05.23-15.21.53:343][643]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2022.05.23-15.21.53:437][643]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter]
+[2022.05.23-15.21.53:437][643]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2022.05.23-15.21.53:463][643]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter_Auto1
+[2022.05.23-15.21.53:464][643]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/BP_FirstPersonCharacter_Auto12A3EB04F42FF36875F7C0E811BBD0AA1.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter_Auto1.uasset'
+[2022.05.23-15.21.53:466][643]LogFileHelpers: Auto-saving content packages took 0.124
+[2022.05.23-15.35.57:360][ 56]Cmd: TRANSACTION UNDO
+[2022.05.23-15.35.57:360][ 56]LogEditorTransaction: Undo Move Elements
+[2022.05.23-15.39.20:046][ 49]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.05.23-15.39.23:145][336]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.05.23-15.39.29:233][880]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.05.23-15.39.35:206][443]Cmd: TRANSACTION UNDO
+[2022.05.23-15.39.35:206][443]LogEditorTransaction: Undo Move Elements
+[2022.05.23-15.39.35:776][463]Cmd: TRANSACTION UNDO
+[2022.05.23-15.39.35:777][463]LogEditorTransaction: Undo Move Elements
+[2022.05.23-15.39.37:347][562]Cmd: TRANSACTION UNDO
+[2022.05.23-15.39.37:347][562]LogEditorTransaction: Undo Move Elements
+[2022.05.23-15.39.43:702][ 31]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.05.23-15.39.45:038][152]Cmd: TRANSACTION UNDO
+[2022.05.23-15.39.45:038][152]LogEditorTransaction: Undo Move Elements
+[2022.05.23-15.40.59:610][516]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2022.05.23-15.40.59:625][516]LogBlueprint: Error: [AssetLog] C:\Users\xocog\Documents\GitHub\TrioDinamico\Level\Content\FirstPerson\Blueprints\BP_FirstPersonCharacter.uasset: [Compiler] Character.ArrowComponent is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get ArrowComponent
+[2022.05.23-15.40.59:713][516]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2022.05.23-15.41.28:536][813]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2022.05.23-15.41.28:639][813]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2022.05.23-15.41.31:427][ 39]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.05.23-15.41.31:440][ 39]LogWorldPartition: Display: GenerateStreaming started...
+[2022.05.23-15.41.31:440][ 39]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.05.23-15.41.31:440][ 39]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.23-15.41.31:440][ 39]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.05.23-15.41.31:440][ 39]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.05.23-15.41.31:440][ 39]LogWorldPartition: Display: GetPartitionedActors took 73 us
+[2022.05.23-15.41.31:441][ 39]LogWorldPartition: Display: GenerateStreaming took 711 us
+[2022.05.23-15.41.31:441][ 39]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.23-15.41.31:441][ 39]PIE: New page: PIE session: FirstPersonMap (23 may. 2022 19:41:31)
+[2022.05.23-15.41.31:475][ 39]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.05.23-15.41.31:486][ 39]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.05.23-15.41.31:486][ 39]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010594s)
+[2022.05.23-15.41.31:486][ 39]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.010710s)
+[2022.05.23-15.41.31:486][ 39]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.23-15.41.31:487][ 39]LogAIModule: Creating AISystem for world FirstPersonMap
+[2022.05.23-15.41.31:487][ 39]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.05.23-15.41.31:487][ 39]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.05.23-15.41.31:490][ 39]LogWorldPartition: Display: WorldPartition initialize took 2 ms
+[2022.05.23-15.41.31:490][ 39]LogPlayLevel: PIE: World Init took: (0.004262s)
+[2022.05.23-15.41.31:539][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2022.05.23-15.41.31:544][ 39]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2022.05.23-15.41.31:544][ 39]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.23-15.41.31:544][ 39]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.23-15.41.31:544][ 39]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.23-15.41.31:544][ 39]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.23-15.41.31:544][ 39]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.23-15.41.31:544][ 39]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.23-15.41.31:544][ 39]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.23-15.41.31:544][ 39]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.23-15.41.31:544][ 39]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.23-15.41.31:544][ 39]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.23-15.41.31:544][ 39]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.23-15.41.31:547][ 39]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.23-15.41.31:581][ 39]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Razer Audio Controller - Game)
+[2022.05.23-15.41.31:581][ 39]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.23-15.41.31:581][ 39]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.23-15.41.31:582][ 39]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.23-15.41.31:583][ 39]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2022.05.23-15.41.31:583][ 39]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2022.05.23-15.41.31:585][ 39]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2022.05.23-15.41.31:585][ 39]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2022.05.23-15.41.31:585][ 39]LogInit: FAudioDevice initialized.
+[2022.05.23-15.41.31:585][ 39]LogAudio: Display: Audio Device (ID: 10) registered with world 'FirstPersonMap'.
+[2022.05.23-15.41.31:601][ 39]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.05.23-15.41.31:607][ 39]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2022.05.23-17.41.31
+[2022.05.23-15.41.31:607][ 39]LogWorld: Bringing up level for play took: 0.005889
+[2022.05.23-15.41.31:609][ 39]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2022.05.23-15.41.31:612][ 39]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=2170.000 Z=98.337
+[2022.05.23-15.41.31:612][ 39]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.23-15.41.31:612][ 39]PIE: Server logged in
+[2022.05.23-15.41.31:613][ 39]PIE: Play in editor total start time 0,178 seconds.
+[2022.05.23-15.41.36:256][524]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.23-15.41.36:256][524]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.05.23-15.41.36:256][524]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.23-15.41.36:257][524]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.23-15.41.36:268][524]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.23-15.41.36:276][524]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.23-15.41.36:326][524]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.23-15.41.36:326][524]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2022.05.23-15.41.36:328][524]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2022.05.23-15.41.36:333][524]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.23-15.41.36:337][524]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2022.05.23-15.41.36:396][525]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2022.05.23-15.43.37:459][224]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2022.05.23-15.43.37:567][224]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2022.05.23-15.44.02:138][898]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2022.05.23-15.44.02:246][898]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2022.05.23-15.44.02:841][941]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2022.05.23-15.44.02:842][941]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/BP_FirstPersonCharacterB54B88984B8E6D9584F57A8A73BC98D4.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2022.05.23-15.44.02:859][941]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2022.05.23-15.44.02:860][941]LogContentValidation: Display: Validating Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2022.05.23-15.44.04:881][121]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.05.23-15.44.04:893][121]LogWorldPartition: Display: GenerateStreaming started...
+[2022.05.23-15.44.04:893][121]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.05.23-15.44.04:893][121]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.23-15.44.04:894][121]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.05.23-15.44.04:894][121]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.05.23-15.44.04:894][121]LogWorldPartition: Display: GetPartitionedActors took 86 us
+[2022.05.23-15.44.04:894][121]LogWorldPartition: Display: GenerateStreaming took 734 us
+[2022.05.23-15.44.04:894][121]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.23-15.44.04:894][121]PIE: New page: PIE session: FirstPersonMap (23 may. 2022 19:44:04)
+[2022.05.23-15.44.04:895][121]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.05.23-15.44.04:905][121]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.05.23-15.44.04:905][121]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010618s)
+[2022.05.23-15.44.04:905][121]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.010688s)
+[2022.05.23-15.44.04:905][121]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.23-15.44.04:906][121]LogAIModule: Creating AISystem for world FirstPersonMap
+[2022.05.23-15.44.04:906][121]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.05.23-15.44.04:906][121]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.05.23-15.44.04:909][121]LogWorldPartition: Display: WorldPartition initialize took 3 ms
+[2022.05.23-15.44.04:910][121]LogPlayLevel: PIE: World Init took: (0.004310s)
+[2022.05.23-15.44.04:958][121]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2022.05.23-15.44.04:962][121]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2022.05.23-15.44.04:962][121]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.23-15.44.04:962][121]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.23-15.44.04:962][121]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.23-15.44.04:962][121]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.23-15.44.04:962][121]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.23-15.44.04:962][121]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.23-15.44.04:962][121]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.23-15.44.04:962][121]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.23-15.44.04:962][121]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.23-15.44.04:962][121]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.23-15.44.04:962][121]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.23-15.44.04:965][121]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.23-15.44.04:997][121]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Razer Audio Controller - Game)
+[2022.05.23-15.44.04:997][121]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.23-15.44.04:997][121]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.23-15.44.04:997][121]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.23-15.44.04:998][121]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2022.05.23-15.44.04:998][121]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2022.05.23-15.44.05:000][121]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2022.05.23-15.44.05:000][121]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2022.05.23-15.44.05:000][121]LogInit: FAudioDevice initialized.
+[2022.05.23-15.44.05:000][121]LogAudio: Display: Audio Device (ID: 11) registered with world 'FirstPersonMap'.
+[2022.05.23-15.44.05:014][121]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.05.23-15.44.05:020][121]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2022.05.23-17.44.05
+[2022.05.23-15.44.05:020][121]LogWorld: Bringing up level for play took: 0.005710
+[2022.05.23-15.44.05:023][121]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2022.05.23-15.44.05:025][121]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=2170.000 Z=98.337
+[2022.05.23-15.44.05:025][121]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.23-15.44.05:025][121]PIE: Server logged in
+[2022.05.23-15.44.05:027][121]PIE: Play in editor total start time 0,138 seconds.
+[2022.05.23-15.44.41:476][ 20]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.23-15.44.41:477][ 20]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.05.23-15.44.41:477][ 20]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.23-15.44.41:477][ 20]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.23-15.44.41:498][ 20]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.23-15.44.41:506][ 20]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.23-15.44.41:556][ 20]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.23-15.44.41:557][ 20]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2022.05.23-15.44.41:558][ 20]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2022.05.23-15.44.41:568][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2022.05.23-15.44.41:626][ 21]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2022.05.23-15.44.42:636][102]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.05.23-15.44.42:648][102]LogWorldPartition: Display: GenerateStreaming started...
+[2022.05.23-15.44.42:648][102]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.05.23-15.44.42:648][102]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.23-15.44.42:648][102]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.05.23-15.44.42:648][102]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.05.23-15.44.42:648][102]LogWorldPartition: Display: GetPartitionedActors took 71 us
+[2022.05.23-15.44.42:649][102]LogWorldPartition: Display: GenerateStreaming took 705 us
+[2022.05.23-15.44.42:649][102]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.23-15.44.42:649][102]PIE: New page: PIE session: FirstPersonMap (23 may. 2022 19:44:42)
+[2022.05.23-15.44.42:685][102]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.05.23-15.44.42:696][102]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.05.23-15.44.42:696][102]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010338s)
+[2022.05.23-15.44.42:696][102]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.010428s)
+[2022.05.23-15.44.42:696][102]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.23-15.44.42:696][102]LogAIModule: Creating AISystem for world FirstPersonMap
+[2022.05.23-15.44.42:697][102]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.05.23-15.44.42:697][102]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.05.23-15.44.42:700][102]LogWorldPartition: Display: WorldPartition initialize took 2 ms
+[2022.05.23-15.44.42:700][102]LogPlayLevel: PIE: World Init took: (0.004135s)
+[2022.05.23-15.44.42:747][102]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2022.05.23-15.44.42:750][102]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2022.05.23-15.44.42:750][102]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.23-15.44.42:750][102]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.23-15.44.42:750][102]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.23-15.44.42:750][102]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.23-15.44.42:750][102]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.23-15.44.42:750][102]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.23-15.44.42:750][102]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.23-15.44.42:750][102]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.23-15.44.42:750][102]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.23-15.44.42:750][102]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.23-15.44.42:750][102]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.23-15.44.42:753][102]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.23-15.44.42:785][102]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Razer Audio Controller - Game)
+[2022.05.23-15.44.42:786][102]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.23-15.44.42:786][102]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.23-15.44.42:786][102]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.23-15.44.42:787][102]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2022.05.23-15.44.42:787][102]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2022.05.23-15.44.42:788][102]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2022.05.23-15.44.42:788][102]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2022.05.23-15.44.42:788][102]LogInit: FAudioDevice initialized.
+[2022.05.23-15.44.42:788][102]LogAudio: Display: Audio Device (ID: 12) registered with world 'FirstPersonMap'.
+[2022.05.23-15.44.42:805][102]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.05.23-15.44.42:810][102]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2022.05.23-17.44.42
+[2022.05.23-15.44.42:811][102]LogWorld: Bringing up level for play took: 0.005508
+[2022.05.23-15.44.42:813][102]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2022.05.23-15.44.42:815][102]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=2170.000 Z=98.337
+[2022.05.23-15.44.42:815][102]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.23-15.44.42:816][102]PIE: Server logged in
+[2022.05.23-15.44.42:817][102]PIE: Play in editor total start time 0,175 seconds.
+[2022.05.23-15.44.59:787][890]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.23-15.44.59:787][890]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.05.23-15.44.59:787][890]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.23-15.44.59:787][890]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.23-15.44.59:809][890]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.23-15.44.59:817][890]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.23-15.44.59:867][890]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.23-15.44.59:867][890]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2022.05.23-15.44.59:869][890]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2022.05.23-15.44.59:879][890]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2022.05.23-15.44.59:927][891]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2022.05.23-15.45.21:314][603]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2022.05.23-15.45.22:890][603]LogSlate: Window 'Save Content' being destroyed
+[2022.05.23-15.45.25:045][753]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2022.05.23-15.45.25:127][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/0M/LYKU8MRWM4BO3O1FDZBG2U
+[2022.05.23-15.45.25:128][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/LYKU8MRWM4BO3O1FDZBG2U7BBA15E14B8F4B1A669B1E9E02557096.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/0M/LYKU8MRWM4BO3O1FDZBG2U.uasset'
+[2022.05.23-15.45.25:133][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/7P/QZX5AESKLO855EVPT5JU20
+[2022.05.23-15.45.25:134][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/QZX5AESKLO855EVPT5JU20A01A5E2D4DA208BA4FAF12B635A1519B.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/7P/QZX5AESKLO855EVPT5JU20.uasset'
+[2022.05.23-15.45.25:137][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/T9/YPWMIEB7JVDQXIUM6FUDGM
+[2022.05.23-15.45.25:138][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/YPWMIEB7JVDQXIUM6FUDGME0E454E94B8D782E2A580B959A9473EB.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/T9/YPWMIEB7JVDQXIUM6FUDGM.uasset'
+[2022.05.23-15.45.25:142][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/2J/R4MRTH8FEAO7ML1BCJFIZ2
+[2022.05.23-15.45.25:142][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/R4MRTH8FEAO7ML1BCJFIZ244B6AC1E421B4AA4E1A9C2A8AF3E7CA7.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/2J/R4MRTH8FEAO7ML1BCJFIZ2.uasset'
+[2022.05.23-15.45.25:146][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/63/MG6FOV6QQX2CAZCGF7O9MM
+[2022.05.23-15.45.25:147][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/MG6FOV6QQX2CAZCGF7O9MMCCC293784D9B1AEA5590F2AF2E6434C8.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/63/MG6FOV6QQX2CAZCGF7O9MM.uasset'
+[2022.05.23-15.45.25:150][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/JT/XIHYQ8ZTVL6F9GCUZX1AQ2
+[2022.05.23-15.45.25:151][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/XIHYQ8ZTVL6F9GCUZX1AQ22694D77A49DAF286EA33DD944E20C392.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/JT/XIHYQ8ZTVL6F9GCUZX1AQ2.uasset'
+[2022.05.23-15.45.25:154][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/OD/YPSPM063O6XAJVKSDHY2JX
+[2022.05.23-15.45.25:155][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/YPSPM063O6XAJVKSDHY2JX10B593C54CD845E2D3ED67BE12548232.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/OD/YPSPM063O6XAJVKSDHY2JX.uasset'
+[2022.05.23-15.45.25:158][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/0O/4IRR0TBO7VGKMMYSZRQTB1
+[2022.05.23-15.45.25:159][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/4IRR0TBO7VGKMMYSZRQTB1825F3FA142B346964E8998A4E7619D9C.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/0O/4IRR0TBO7VGKMMYSZRQTB1.uasset'
+[2022.05.23-15.45.25:162][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/AI/0XWE3RNM2XQC0ST1KXG02O
+[2022.05.23-15.45.25:163][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/0XWE3RNM2XQC0ST1KXG02OA0218F4C47C5D2748572DA8B9A5B41E2.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/AI/0XWE3RNM2XQC0ST1KXG02O.uasset'
+[2022.05.23-15.45.25:167][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/CP/XRLOR3HVYVHJA3N9PKGXZH
+[2022.05.23-15.45.25:167][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/XRLOR3HVYVHJA3N9PKGXZH27AB19BA4C8BB95C9EB8E7B3BA8900CD.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/CP/XRLOR3HVYVHJA3N9PKGXZH.uasset'
+[2022.05.23-15.45.25:171][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/G2/DXY1ROMU8NVTUPH999VNGV
+[2022.05.23-15.45.25:172][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/DXY1ROMU8NVTUPH999VNGV70B69921496AA52A98ACFDBDB4F609A5.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/G2/DXY1ROMU8NVTUPH999VNGV.uasset'
+[2022.05.23-15.45.25:175][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/PT/ZXUQMNLL9GZ2UNQ5D0R4A4
+[2022.05.23-15.45.25:176][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/ZXUQMNLL9GZ2UNQ5D0R4A4FDAEFCE4417B05B5DF383DB53BFA7385.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/PT/ZXUQMNLL9GZ2UNQ5D0R4A4.uasset'
+[2022.05.23-15.45.25:179][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/80/QQN0UFFAA797E1UT4IMD29
+[2022.05.23-15.45.25:180][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/QQN0UFFAA797E1UT4IMD298032F81144102388EE376C8023FED2B3.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/80/QQN0UFFAA797E1UT4IMD29.uasset'
+[2022.05.23-15.45.25:183][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/8C/EAHCBN229IT8APJO305AH5
+[2022.05.23-15.45.25:184][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/EAHCBN229IT8APJO305AH5C23D1BEB48E824848212BAAD7DCF374C.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/8C/EAHCBN229IT8APJO305AH5.uasset'
+[2022.05.23-15.45.25:187][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/DI/1JZHHCOBVQ2F5XRUWSES1X
+[2022.05.23-15.45.25:188][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/1JZHHCOBVQ2F5XRUWSES1X733F23BC438DC982EEB35D9D498DA5A3.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/DI/1JZHHCOBVQ2F5XRUWSES1X.uasset'
+[2022.05.23-15.45.25:192][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/7Z/7EHFAZ5HVWXAWQ04QO5TH0
+[2022.05.23-15.45.25:193][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/7EHFAZ5HVWXAWQ04QO5TH083DBC62F48306D7D10C7CBA81B75FC78.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/7Z/7EHFAZ5HVWXAWQ04QO5TH0.uasset'
+[2022.05.23-15.45.25:196][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/AJ/2XZ3RUK0LFB63FVNQE7P5R
+[2022.05.23-15.45.25:197][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/2XZ3RUK0LFB63FVNQE7P5R7B3028014096EA5739C06988D08AF418.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/AJ/2XZ3RUK0LFB63FVNQE7P5R.uasset'
+[2022.05.23-15.45.25:200][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/HC/FI3CQDKJY4J00D2B21FYQZ
+[2022.05.23-15.45.25:201][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/FI3CQDKJY4J00D2B21FYQZB1877596434DD1CB5F3957A9E26A42BD.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/HC/FI3CQDKJY4J00D2B21FYQZ.uasset'
+[2022.05.23-15.45.25:205][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/5X/6EW8RE9VA2GGHRWK614FCI
+[2022.05.23-15.45.25:206][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/6EW8RE9VA2GGHRWK614FCIDB32FAC1466A6149A689DEA0F4444164.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/5X/6EW8RE9VA2GGHRWK614FCI.uasset'
+[2022.05.23-15.45.25:209][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/DF/1GID8P6B00XRWKYCXU7HT1
+[2022.05.23-15.45.25:210][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/1GID8P6B00XRWKYCXU7HT12EAE4F3F469DCEE31B6D65A04AE4128B.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/DF/1GID8P6B00XRWKYCXU7HT1.uasset'
+[2022.05.23-15.45.25:213][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/L5/1ZJ54FMA0DAL3I2Q8RFAIB
+[2022.05.23-15.45.25:214][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/1ZJ54FMA0DAL3I2Q8RFAIB3D1657CD442B2654A2862D9AB612EB64.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/L5/1ZJ54FMA0DAL3I2Q8RFAIB.uasset'
+[2022.05.23-15.45.25:217][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/80/RCXALNT3NG94XMV0V6D4XE
+[2022.05.23-15.45.25:218][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/RCXALNT3NG94XMV0V6D4XEA2E6B64E46A9ED1400CD4FAF8FF77808.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/80/RCXALNT3NG94XMV0V6D4XE.uasset'
+[2022.05.23-15.45.25:222][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/CW/6HT16P8P5RAXNJG3EVYWE9
+[2022.05.23-15.45.25:223][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/6HT16P8P5RAXNJG3EVYWE95713756446ADD988039028BFC34F33F7.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/CW/6HT16P8P5RAXNJG3EVYWE9.uasset'
+[2022.05.23-15.45.25:226][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/SZ/D1AHM62WL9TXSNPYQDXQMZ
+[2022.05.23-15.45.25:227][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/D1AHM62WL9TXSNPYQDXQMZ74FBD9C84AEC6F50068203A067CD3742.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/SZ/D1AHM62WL9TXSNPYQDXQMZ.uasset'
+[2022.05.23-15.45.25:231][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/JW/IY5R6I5N0YWU9LYWKXFXH9
+[2022.05.23-15.45.25:232][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/IY5R6I5N0YWU9LYWKXFXH9916F0CAE44DF63AFB26319B928B6043B.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/JW/IY5R6I5N0YWU9LYWKXFXH9.uasset'
+[2022.05.23-15.45.25:235][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/OJ/9MHHMH0XHVZ04YDZ7NPC32
+[2022.05.23-15.45.25:236][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/9MHHMH0XHVZ04YDZ7NPC328315A269468710820A727EB63DEFE392.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/OJ/9MHHMH0XHVZ04YDZ7NPC32.uasset'
+[2022.05.23-15.45.25:239][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/Q2/TOKV0KMMZ7RIQ78R0UEDQL
+[2022.05.23-15.45.25:240][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/TOKV0KMMZ7RIQ78R0UEDQLC5E265764A873AFA74CAC690ED5F4791.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/Q2/TOKV0KMMZ7RIQ78R0UEDQL.uasset'
+[2022.05.23-15.45.25:244][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/VP/FVTPO8KZ0WPMCSQLVJE6O9
+[2022.05.23-15.45.25:244][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/FVTPO8KZ0WPMCSQLVJE6O98F14C3E5495384F794FF1DB47289120F.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/VP/FVTPO8KZ0WPMCSQLVJE6O9.uasset'
+[2022.05.23-15.45.25:248][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/2W/U0XT0R08XQA6C15NK8ILFA
+[2022.05.23-15.45.25:249][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/U0XT0R08XQA6C15NK8ILFAC51753B64B9DFD7A0C27328E9D18063D.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/2W/U0XT0R08XQA6C15NK8ILFA.uasset'
+[2022.05.23-15.45.25:252][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/RJ/Z7CLKO8GGJ7RXH5PUAF4T4
+[2022.05.23-15.45.25:253][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/Z7CLKO8GGJ7RXH5PUAF4T47A7EFB5B44055C6C55822BA614B3CFA3.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/RJ/Z7CLKO8GGJ7RXH5PUAF4T4.uasset'
+[2022.05.23-15.45.25:257][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/XJ/HL558UUAGCS9HVVOI0S7PX
+[2022.05.23-15.45.25:258][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/HL558UUAGCS9HVVOI0S7PX2C79474B4A648F4BEAC4118C8E63D27B.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/XJ/HL558UUAGCS9HVVOI0S7PX.uasset'
+[2022.05.23-15.45.25:261][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/51/6JKB4DNGJP09QUHY23FHRV
+[2022.05.23-15.45.25:262][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/6JKB4DNGJP09QUHY23FHRV1C46E5274B71E15D1AB9D39DA7530219.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/51/6JKB4DNGJP09QUHY23FHRV.uasset'
+[2022.05.23-15.45.25:265][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/DD/654T6CAPVSXAN1LXEX71EI
+[2022.05.23-15.45.25:266][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/654T6CAPVSXAN1LXEX71EIDBC66CB54962286B43A32D8CB9231472.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/DD/654T6CAPVSXAN1LXEX71EI.uasset'
+[2022.05.23-15.45.25:269][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/EF/G3O7YJR3QU51OHQGRYB635
+[2022.05.23-15.45.25:270][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/G3O7YJR3QU51OHQGRYB635004C113A47FDE47189353A98FEA56C96.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/EF/G3O7YJR3QU51OHQGRYB635.uasset'
+[2022.05.23-15.45.25:274][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/YQ/KT6JL4FVCNJJ9VFOCSF32J
+[2022.05.23-15.45.25:274][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/KT6JL4FVCNJJ9VFOCSF32J9D0686564CD39A37E54A65B6559F4B3A.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/YQ/KT6JL4FVCNJJ9VFOCSF32J.uasset'
+[2022.05.23-15.45.25:278][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/P8/0GJ9TLQE2YKOIFZ6YHG33H
+[2022.05.23-15.45.25:279][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/0GJ9TLQE2YKOIFZ6YHG33HA85419454B82C3B0D0BDFE834AD68CF7.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/P8/0GJ9TLQE2YKOIFZ6YHG33H.uasset'
+[2022.05.23-15.45.25:282][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/UE/YUZ9741T50O1SYRX90OB0S
+[2022.05.23-15.45.25:283][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/YUZ9741T50O1SYRX90OB0S17AEC7C149C122771CB852A9C447B749.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/UE/YUZ9741T50O1SYRX90OB0S.uasset'
+[2022.05.23-15.45.25:286][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/F/2F/0SPQG8P507LI9VUAFG20OA
+[2022.05.23-15.45.25:287][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/0SPQG8P507LI9VUAFG20OAC915F3F64AFFC89067FB0B8DA581F433.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/F/2F/0SPQG8P507LI9VUAFG20OA.uasset'
+[2022.05.23-15.45.25:291][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/Y9/781G378GDY4G40H1HACQH8
+[2022.05.23-15.45.25:291][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/781G378GDY4G40H1HACQH8584DD7604A4656244ED0B381CC10B3E0.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/Y9/781G378GDY4G40H1HACQH8.uasset'
+[2022.05.23-15.45.25:294][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/UM/I0NRLLOVJG59WEFZ10ARBU
+[2022.05.23-15.45.25:294][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/I0NRLLOVJG59WEFZ10ARBU56C2A545436F62039D4178A5514C1B1D.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/UM/I0NRLLOVJG59WEFZ10ARBU.uasset'
+[2022.05.23-15.45.25:297][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/BN/F9ZRTHR6VT8ZSQBLR83FCR
+[2022.05.23-15.45.25:297][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/F9ZRTHR6VT8ZSQBLR83FCR86EA84534DD27BAA400BCB806F9B0A0F.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/BN/F9ZRTHR6VT8ZSQBLR83FCR.uasset'
+[2022.05.23-15.45.25:300][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/51/LZUIG3TFG3DUHJ5XKS3IOB
+[2022.05.23-15.45.25:300][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/LZUIG3TFG3DUHJ5XKS3IOB32B6F60E4E72313AB188079F286082ED.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/51/LZUIG3TFG3DUHJ5XKS3IOB.uasset'
+[2022.05.23-15.45.25:303][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/NE/RVZGGFRN25BYU1JBOXN8VZ
+[2022.05.23-15.45.25:303][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/RVZGGFRN25BYU1JBOXN8VZE7F596934FD8FFEC2B8FD595DA488465.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/NE/RVZGGFRN25BYU1JBOXN8VZ.uasset'
+[2022.05.23-15.45.25:306][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/DA/9Q39NKIHRW9J4Z1C1KS76L
+[2022.05.23-15.45.25:306][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/9Q39NKIHRW9J4Z1C1KS76L3CAB3D5149E2306AA652F682E5ACCA1D.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/DA/9Q39NKIHRW9J4Z1C1KS76L.uasset'
+[2022.05.23-15.45.25:309][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/NT/20ZMAN9I1J163UD7UBQVR7
+[2022.05.23-15.45.25:309][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/20ZMAN9I1J163UD7UBQVR7B6682B1E4A3305CFDA3622984DF4C95D.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/NT/20ZMAN9I1J163UD7UBQVR7.uasset'
+[2022.05.23-15.45.25:312][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/I6/W7ECVPX9FBS4F0RTVDTIHP
+[2022.05.23-15.45.25:312][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/W7ECVPX9FBS4F0RTVDTIHP14C342D8436B7E51997A688904C3948C.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/I6/W7ECVPX9FBS4F0RTVDTIHP.uasset'
+[2022.05.23-15.45.25:318][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/88/N2D2SKSLA4GPUAXFFL5GZE
+[2022.05.23-15.45.25:318][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/N2D2SKSLA4GPUAXFFL5GZEDB35F9F2473A684542BA1DB83A9FFE4B.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/88/N2D2SKSLA4GPUAXFFL5GZE.uasset'
+[2022.05.23-15.45.25:322][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/RX/DMD216BJP94SKS5DI77F70
+[2022.05.23-15.45.25:322][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/DMD216BJP94SKS5DI77F708CEAD7FE41098EC6B8808C9A212E1685.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/RX/DMD216BJP94SKS5DI77F70.uasset'
+[2022.05.23-15.45.25:325][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/IG/KDTSI05FKFQJZAD6CDJ8LY
+[2022.05.23-15.45.25:326][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/KDTSI05FKFQJZAD6CDJ8LY33FAA6C744AAE9991C99EF9B1EE2CB85.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/IG/KDTSI05FKFQJZAD6CDJ8LY.uasset'
+[2022.05.23-15.45.25:329][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/3Y/8787QVVLT0HC5TGQ08I2M7
+[2022.05.23-15.45.25:329][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/8787QVVLT0HC5TGQ08I2M72DD1ED2145BBBD7C40812089C19A7C4C.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/3Y/8787QVVLT0HC5TGQ08I2M7.uasset'
+[2022.05.23-15.45.25:333][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/W7/WIVA126WTG3RP2QYQQSLZH
+[2022.05.23-15.45.25:333][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/WIVA126WTG3RP2QYQQSLZH8E6BAEF94AA0FFC019A5BE90ABC041FE.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/W7/WIVA126WTG3RP2QYQQSLZH.uasset'
+[2022.05.23-15.45.25:336][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/U0/AL34WOW6XN4W6UZDNJMX7U
+[2022.05.23-15.45.25:336][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/AL34WOW6XN4W6UZDNJMX7U1FBA202741E0A653D12FC193594A0506.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/U0/AL34WOW6XN4W6UZDNJMX7U.uasset'
+[2022.05.23-15.45.25:339][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/56/O1GR8Q0FJTX4N3S1SL3GGV
+[2022.05.23-15.45.25:339][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/O1GR8Q0FJTX4N3S1SL3GGVA8A5534741A1CB720ECD56828CFB7579.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/56/O1GR8Q0FJTX4N3S1SL3GGV.uasset'
+[2022.05.23-15.45.25:342][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/NI/04HHA2LT2H7AJPAA1AHKSS
+[2022.05.23-15.45.25:342][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/04HHA2LT2H7AJPAA1AHKSSC6E4A0D24E6C1D8F2E4836B3C43B1719.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/NI/04HHA2LT2H7AJPAA1AHKSS.uasset'
+[2022.05.23-15.45.25:345][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/5X/S3JDPSARIZ3YL56KKNW36P
+[2022.05.23-15.45.25:345][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/S3JDPSARIZ3YL56KKNW36PCE6297934E6DB14F078D119AE9B7495A.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/5X/S3JDPSARIZ3YL56KKNW36P.uasset'
+[2022.05.23-15.45.25:348][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/XH/5WN20JQUJL6MZXUZ9V0DEY
+[2022.05.23-15.45.25:349][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/5WN20JQUJL6MZXUZ9V0DEY043A1D284BF2ED2A9F0EEF9BBDFBF1C8.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/XH/5WN20JQUJL6MZXUZ9V0DEY.uasset'
+[2022.05.23-15.45.25:351][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/JE/L4TCH2M79M345M734KY9EF
+[2022.05.23-15.45.25:352][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/L4TCH2M79M345M734KY9EF9AEBE63E45AABFACA38FD4AC6F802BA9.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/JE/L4TCH2M79M345M734KY9EF.uasset'
+[2022.05.23-15.45.25:355][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/IZ/3U0K1412BJK6Q5C7QIB18Y
+[2022.05.23-15.45.25:355][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/3U0K1412BJK6Q5C7QIB18Y592880884E1C9697C2F931BDD883E818.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/IZ/3U0K1412BJK6Q5C7QIB18Y.uasset'
+[2022.05.23-15.45.25:358][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/VZ/ICMGMWXO2OLJDX4QV9ZS7T
+[2022.05.23-15.45.25:358][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/ICMGMWXO2OLJDX4QV9ZS7T2A77AE6E47F0B8C9AC84E4A4C3F2CF2B.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/VZ/ICMGMWXO2OLJDX4QV9ZS7T.uasset'
+[2022.05.23-15.45.25:361][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/V0/DL82DO8K5IRIEQDID5SVL0
+[2022.05.23-15.45.25:361][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/DL82DO8K5IRIEQDID5SVL0B40759B143675EE25A5E0BB869F65D05.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/V0/DL82DO8K5IRIEQDID5SVL0.uasset'
+[2022.05.23-15.45.25:365][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/VB/M7O4IRQ2PEBDS2L2G7X1LD
+[2022.05.23-15.45.25:365][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/M7O4IRQ2PEBDS2L2G7X1LD58ACD61A434D942EC35859A6451DD86A.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/VB/M7O4IRQ2PEBDS2L2G7X1LD.uasset'
+[2022.05.23-15.45.25:368][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/FB/0QZKCTI73V17LNW6TWKVAL
+[2022.05.23-15.45.25:368][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/0QZKCTI73V17LNW6TWKVAL191D510F465416877FDD18B0AC356B96.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/FB/0QZKCTI73V17LNW6TWKVAL.uasset'
+[2022.05.23-15.45.25:372][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/PG/UKHMU47SZTC6K1RDRT02TA
+[2022.05.23-15.45.25:372][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/UKHMU47SZTC6K1RDRT02TA422130B241C06DCD50AA87A7E4B5E68F.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/PG/UKHMU47SZTC6K1RDRT02TA.uasset'
+[2022.05.23-15.45.25:375][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/LJ/8AQ9SN97TX2OSWHQBFHVH5
+[2022.05.23-15.45.25:375][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/8AQ9SN97TX2OSWHQBFHVH5D173D8C346B298A527F51595390D8EAC.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/LJ/8AQ9SN97TX2OSWHQBFHVH5.uasset'
+[2022.05.23-15.45.25:378][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/CV/S2WNJY9B9ROXKP9H61E8KF
+[2022.05.23-15.45.25:378][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/S2WNJY9B9ROXKP9H61E8KF308EB5E04AAE8C5B5C3F22835B4EBE34.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/CV/S2WNJY9B9ROXKP9H61E8KF.uasset'
+[2022.05.23-15.45.25:381][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/OJ/VV2PD8LQGX5DRNJNX4CQCP
+[2022.05.23-15.45.25:382][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/VV2PD8LQGX5DRNJNX4CQCP58E09E3C4DFDFBF9A268B59F0B4F5531.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/OJ/VV2PD8LQGX5DRNJNX4CQCP.uasset'
+[2022.05.23-15.45.25:385][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/66/2FEX6VWKAOT0VNPTCQ5ARA
+[2022.05.23-15.45.25:385][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/2FEX6VWKAOT0VNPTCQ5ARA55B938F04DD82ED4F9A07883BB2D7712.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/66/2FEX6VWKAOT0VNPTCQ5ARA.uasset'
+[2022.05.23-15.45.25:388][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/LS/27F9BL56NSHE3LWTH9DY3H
+[2022.05.23-15.45.25:388][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/27F9BL56NSHE3LWTH9DY3H3D6E562043307D5574EAC980577B35D2.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/LS/27F9BL56NSHE3LWTH9DY3H.uasset'
+[2022.05.23-15.45.25:391][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/88/RZF12LINT58M5JMLNF6SO1
+[2022.05.23-15.45.25:391][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/RZF12LINT58M5JMLNF6SO155C81D9C40447B170089BF99633B43C9.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/88/RZF12LINT58M5JMLNF6SO1.uasset'
+[2022.05.23-15.45.25:394][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/6B/U8P0NUFUG2ZWXFNM9B1SR5
+[2022.05.23-15.45.25:394][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/U8P0NUFUG2ZWXFNM9B1SR586F6E899416D7BEB61FE9BA20D13B77B.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/6B/U8P0NUFUG2ZWXFNM9B1SR5.uasset'
+[2022.05.23-15.45.25:397][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/93/G63T5WI0BQT9PWW1DFMAQU
+[2022.05.23-15.45.25:397][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/G63T5WI0BQT9PWW1DFMAQU0BC66E8B444C384806206783001EEF4A.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/93/G63T5WI0BQT9PWW1DFMAQU.uasset'
+[2022.05.23-15.45.25:400][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/5V/XXT42UQT5OBH2SN88TVAZZ
+[2022.05.23-15.45.25:400][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/XXT42UQT5OBH2SN88TVAZZDE1563A14F3F0408A56C2C928C0F9C6F.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/5V/XXT42UQT5OBH2SN88TVAZZ.uasset'
+[2022.05.23-15.45.25:403][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/TE/FYZ4Y963WTGSCJ8NJ13J76
+[2022.05.23-15.45.25:403][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/FYZ4Y963WTGSCJ8NJ13J76C4BA25AB4AB65D01E66E31A6F9EC11A7.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/TE/FYZ4Y963WTGSCJ8NJ13J76.uasset'
+[2022.05.23-15.45.25:406][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/K5/78PP0R080S5TWFDRF1YAR7
+[2022.05.23-15.45.25:407][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/78PP0R080S5TWFDRF1YAR723C5B8204304EEC8C191B6A061CB30DD.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/K5/78PP0R080S5TWFDRF1YAR7.uasset'
+[2022.05.23-15.45.25:410][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/R8/BRRJ9V8WN620SAP6L5EZQB
+[2022.05.23-15.45.25:410][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/BRRJ9V8WN620SAP6L5EZQB060C8BD84FE3AE05AEC7A2AA330D96FE.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/R8/BRRJ9V8WN620SAP6L5EZQB.uasset'
+[2022.05.23-15.45.25:413][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/IT/LMZYSI8VV7RA9BVZTMZWNM
+[2022.05.23-15.45.25:413][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/LMZYSI8VV7RA9BVZTMZWNM4DB77BEE4ECEC665ED2F628635AA8FC2.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/IT/LMZYSI8VV7RA9BVZTMZWNM.uasset'
+[2022.05.23-15.45.25:416][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/F/14/3B4F2USUO1XBT8KI35JX17
+[2022.05.23-15.45.25:416][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/3B4F2USUO1XBT8KI35JX17334E68BC4D1DA99ACD3BC29D897E1C0A.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/F/14/3B4F2USUO1XBT8KI35JX17.uasset'
+[2022.05.23-15.45.25:419][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/FU/YGM9HER22EAMKKX00J9RJB
+[2022.05.23-15.45.25:419][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/YGM9HER22EAMKKX00J9RJBD551F1174AF9242B025223AAC0BB02EC.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/FU/YGM9HER22EAMKKX00J9RJB.uasset'
+[2022.05.23-15.45.25:422][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/JL/7CAYPF35FX2SNU644LJFWC
+[2022.05.23-15.45.25:422][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/7CAYPF35FX2SNU644LJFWC54AE52894CE67B96FF6D479A82EDBECD.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/JL/7CAYPF35FX2SNU644LJFWC.uasset'
+[2022.05.23-15.45.25:425][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/IQ/NVSIDCJ5F42P7GP2J24BF3
+[2022.05.23-15.45.25:425][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/NVSIDCJ5F42P7GP2J24BF38EA8269B4CF3AA49E3EE058AAB41051B.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/IQ/NVSIDCJ5F42P7GP2J24BF3.uasset'
+[2022.05.23-15.45.25:428][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/8V/WV9RRVMSKI9GH1LKD1WLT4
+[2022.05.23-15.45.25:428][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/WV9RRVMSKI9GH1LKD1WLT4FF66FACC47DA57F56BE689B455DD6D6A.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/8V/WV9RRVMSKI9GH1LKD1WLT4.uasset'
+[2022.05.23-15.45.25:432][753]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/M6/WCRB7OA9YAKXGKMPD3YK2W
+[2022.05.23-15.45.25:432][753]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/WCRB7OA9YAKXGKMPD3YK2WBDC761704AE6FBAE1960B691E01DBE8A.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/M6/WCRB7OA9YAKXGKMPD3YK2W.uasset'
+[2022.05.23-15.45.25:501][753]AssetCheck: New page: Asset Save: multiple assets
+[2022.05.23-15.45.25:501][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203660723
+[2022.05.23-15.45.25:501][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203660722
+[2022.05.23-15.45.25:501][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203659721
+[2022.05.23-15.45.25:501][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203659720
+[2022.05.23-15.45.25:501][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_13
+[2022.05.23-15.45.25:501][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_26
+[2022.05.23-15.45.25:501][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_3417EBAA6606B11001_1646588207
+[2022.05.23-15.45.25:501][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_25
+[2022.05.23-15.45.25:501][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_12
+[2022.05.23-15.45.25:501][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_23
+[2022.05.23-15.45.25:501][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_40
+[2022.05.23-15.45.25:501][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_6
+[2022.05.23-15.45.25:501][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_3
+[2022.05.23-15.45.25:501][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_5
+[2022.05.23-15.45.25:501][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_42
+[2022.05.23-15.45.25:501][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_24
+[2022.05.23-15.45.25:501][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_15
+[2022.05.23-15.45.25:501][753]LogContentValidation: Display: Validating BP_Rifle_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Rifle_C_1
+[2022.05.23-15.45.25:501][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_33
+[2022.05.23-15.45.25:502][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_34
+[2022.05.23-15.45.25:502][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_4
+[2022.05.23-15.45.25:502][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_17
+[2022.05.23-15.45.25:502][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_21
+[2022.05.23-15.45.25:502][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_22
+[2022.05.23-15.45.25:502][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_0
+[2022.05.23-15.45.25:502][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_41
+[2022.05.23-15.45.25:502][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_14
+[2022.05.23-15.45.25:502][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_8
+[2022.05.23-15.45.25:502][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_19
+[2022.05.23-15.45.25:502][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_32
+[2022.05.23-15.45.25:502][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_31
+[2022.05.23-15.45.25:502][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_16
+[2022.05.23-15.45.25:502][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_37
+[2022.05.23-15.45.25:502][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_35
+[2022.05.23-15.45.25:502][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_10
+[2022.05.23-15.45.25:502][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_28
+[2022.05.23-15.45.25:502][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_27
+[2022.05.23-15.45.25:502][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_36
+[2022.05.23-15.45.25:502][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_38
+[2022.05.23-15.45.25:502][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_29
+[2022.05.23-15.45.25:502][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_9
+[2022.05.23-15.45.25:502][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_20
+[2022.05.23-15.45.25:502][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203658719
+[2022.05.23-15.45.25:502][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203657718
+[2022.05.23-15.45.25:502][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203657717
+[2022.05.23-15.45.25:502][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203656716
+[2022.05.23-15.45.25:502][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203656715
+[2022.05.23-15.45.25:503][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203655714
+[2022.05.23-15.45.25:503][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203655713
+[2022.05.23-15.45.25:503][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203654712
+[2022.05.23-15.45.25:503][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203654711
+[2022.05.23-15.45.25:503][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203653710
+[2022.05.23-15.45.25:503][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203653709
+[2022.05.23-15.45.25:503][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203652708
+[2022.05.23-15.45.25:503][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203652707
+[2022.05.23-15.45.25:503][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203651706
+[2022.05.23-15.45.25:503][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203650705
+[2022.05.23-15.45.25:503][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203650704
+[2022.05.23-15.45.25:503][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203649703
+[2022.05.23-15.45.25:503][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203649702
+[2022.05.23-15.45.25:503][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203648701
+[2022.05.23-15.45.25:503][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203648700
+[2022.05.23-15.45.25:503][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203647699
+[2022.05.23-15.45.25:503][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203647698
+[2022.05.23-15.45.25:503][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203646697
+[2022.05.23-15.45.25:503][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203645696
+[2022.05.23-15.45.25:503][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203645695
+[2022.05.23-15.45.25:503][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203644694
+[2022.05.23-15.45.25:503][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203644693
+[2022.05.23-15.45.25:503][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203643692
+[2022.05.23-15.45.25:503][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203643691
+[2022.05.23-15.45.25:503][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203642690
+[2022.05.23-15.45.25:503][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203642689
+[2022.05.23-15.45.25:503][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203641688
+[2022.05.23-15.45.25:503][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203641687
+[2022.05.23-15.45.25:504][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203640686
+[2022.05.23-15.45.25:504][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203639685
+[2022.05.23-15.45.25:504][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203639684
+[2022.05.23-15.45.25:504][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203638683
+[2022.05.23-15.45.25:504][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203638682
+[2022.05.23-15.45.25:504][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203637681
+[2022.05.23-15.45.25:504][753]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DA21201_1203635680
