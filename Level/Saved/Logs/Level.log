@@ -1265,3 +1265,59 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.05.30-13.25.35:060][981]LogContentValidation: Display: Validating StaticMeshActor /Game/OurStuff/FinalLevel.FinalLevel:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DCD1401_2121657374
 [2022.05.30-13.25.35:060][981]LogContentValidation: Display: Validating StaticMeshActor /Game/OurStuff/FinalLevel.FinalLevel:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DCD1401_2097180373
 [2022.05.30-13.25.35:069][981]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2022.05.30-13.26.34:581][778]Cmd: TRANSACTION UNDO
+[2022.05.30-13.26.34:581][778]LogEditorTransaction: Undo Move Elements
+[2022.05.30-13.26.34:979][789]Cmd: TRANSACTION UNDO
+[2022.05.30-13.26.34:979][789]LogEditorTransaction: Undo Scale Elements
+[2022.05.30-13.26.43:112][336]Cmd: TRANSACTION UNDO
+[2022.05.30-13.26.43:112][336]LogEditorTransaction: Undo Move Elements
+[2022.05.30-13.26.43:452][345]Cmd: TRANSACTION UNDO
+[2022.05.30-13.26.43:453][345]LogEditorTransaction: Undo Scale Elements
+[2022.05.30-13.26.51:302][882]Cmd: TRANSACTION UNDO
+[2022.05.30-13.26.51:302][882]LogEditorTransaction: Undo Scale Elements
+[2022.05.30-13.27.00:448][484]Cmd: TRANSACTION UNDO
+[2022.05.30-13.27.00:448][484]LogEditorTransaction: Undo Scale Elements
+[2022.05.30-13.27.03:665][655]Cmd: TRANSACTION UNDO
+[2022.05.30-13.27.03:665][655]LogEditorTransaction: Undo Scale Elements
+[2022.05.30-13.27.06:160][776]Cmd: TRANSACTION UNDO
+[2022.05.30-13.27.06:160][776]LogEditorTransaction: Undo Scale Elements
+[2022.05.30-13.27.08:705][912]Cmd: TRANSACTION UNDO
+[2022.05.30-13.27.08:705][912]LogEditorTransaction: Undo Scale Elements
+[2022.05.30-13.27.36:983][ 81]Cmd: TRANSACTION UNDO
+[2022.05.30-13.27.36:983][ 81]LogEditorTransaction: Undo Scale Elements
+[2022.05.30-13.27.46:739][685]Cmd: TRANSACTION UNDO
+[2022.05.30-13.27.46:739][685]LogEditorTransaction: Undo Scale Elements
+[2022.05.30-13.29.30:450][926]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/OurStuff/FinalLevel/0/TT/LVKHYU4TVBDJ666I9LAD5L
+[2022.05.30-13.29.30:451][926]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/LVKHYU4TVBDJ666I9LAD5LABCB9C2E4B74215479D54EBAC9539FF2.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/OurStuff/FinalLevel/0/TT/LVKHYU4TVBDJ666I9LAD5L.uasset'
+[2022.05.30-13.29.30:455][926]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/OurStuff/FinalLevel/4/4E/V37NIR6C80VTYUPUB16IVI
+[2022.05.30-13.29.30:456][926]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/V37NIR6C80VTYUPUB16IVI6A983CB14BDE16BA4037778FFEA31445.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/OurStuff/FinalLevel/4/4E/V37NIR6C80VTYUPUB16IVI.uasset'
+[2022.05.30-13.29.30:460][926]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/OurStuff/FinalLevel/5/1Q/PUSXCBW3ZE0MQ95MH1NN5I
+[2022.05.30-13.29.30:461][926]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/PUSXCBW3ZE0MQ95MH1NN5I8473E86141CC1499031C39BA605D8AF7.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/OurStuff/FinalLevel/5/1Q/PUSXCBW3ZE0MQ95MH1NN5I.uasset'
+[2022.05.30-13.29.30:465][926]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/OurStuff/FinalLevel/5/I6/40LDI6P09PLQ249QU69HLF
+[2022.05.30-13.29.30:466][926]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/40LDI6P09PLQ249QU69HLF04F090594F4B979F00E01DBC381D420A.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/OurStuff/FinalLevel/5/I6/40LDI6P09PLQ249QU69HLF.uasset'
+[2022.05.30-13.29.30:470][926]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/OurStuff/FinalLevel/7/BF/0R0Y9RRM2OI8D4XCZ1FQ0D
+[2022.05.30-13.29.30:471][926]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/0R0Y9RRM2OI8D4XCZ1FQ0DB62E433B4EA08D2F8C56BDA45243B698.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/OurStuff/FinalLevel/7/BF/0R0Y9RRM2OI8D4XCZ1FQ0D.uasset'
+[2022.05.30-13.29.30:475][926]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/OurStuff/FinalLevel/9/BD/ROLCS6H8DD2YEOAY6Z1592
+[2022.05.30-13.29.30:476][926]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/ROLCS6H8DD2YEOAY6Z159249D5E8344EAF7133C4555DA952BEC638.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/OurStuff/FinalLevel/9/BD/ROLCS6H8DD2YEOAY6Z1592.uasset'
+[2022.05.30-13.29.30:479][926]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/OurStuff/FinalLevel/A/VI/2E6JV6B7L0W8V997M6IGFM
+[2022.05.30-13.29.30:481][926]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/2E6JV6B7L0W8V997M6IGFM7554109041CA9444EDD86BB9CE9993F4.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/OurStuff/FinalLevel/A/VI/2E6JV6B7L0W8V997M6IGFM.uasset'
+[2022.05.30-13.29.30:485][926]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/OurStuff/FinalLevel/B/E1/22KG80QS8T7SO02C2RL6Z4
+[2022.05.30-13.29.30:486][926]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/22KG80QS8T7SO02C2RL6Z47D1AECA2418A33A120988D995475F586.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/OurStuff/FinalLevel/B/E1/22KG80QS8T7SO02C2RL6Z4.uasset'
+[2022.05.30-13.29.30:489][926]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/OurStuff/FinalLevel/E/36/M0UY5UQGKPZ3LHE5CWDGAT
+[2022.05.30-13.29.30:490][926]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/M0UY5UQGKPZ3LHE5CWDGATF509A5FD405511F63282C5B3ECFDC71A.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/OurStuff/FinalLevel/E/36/M0UY5UQGKPZ3LHE5CWDGAT.uasset'
+[2022.05.30-13.29.30:493][926]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/OurStuff/FinalLevel/5/8K/8ZONWSVNKX2LNAP2YQGCJV
+[2022.05.30-13.29.30:494][926]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/8ZONWSVNKX2LNAP2YQGCJV7691E8474004B8B6872C6D97B2623F49.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/OurStuff/FinalLevel/5/8K/8ZONWSVNKX2LNAP2YQGCJV.uasset'
+[2022.05.30-13.29.30:498][926]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/OurStuff/FinalLevel/B/Z8/WX2SXY7WB2ZYOABET2N962
+[2022.05.30-13.29.30:498][926]LogSavePackage: Moving 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Saved/WX2SXY7WB2ZYOABET2N962A80D26FD4E2A9425AB07EBA4D87AA80F.tmp' to 'C:/Users/xocog/Documents/GitHub/TrioDinamico/Level/Content/__ExternalActors__/OurStuff/FinalLevel/B/Z8/WX2SXY7WB2ZYOABET2N962.uasset'
+[2022.05.30-13.29.30:517][926]AssetCheck: New page: Asset Save: multiple assets
+[2022.05.30-13.29.30:517][926]LogContentValidation: Display: Validating StaticMeshActor /Game/OurStuff/FinalLevel.FinalLevel:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5D9C1401_1856916955
+[2022.05.30-13.29.30:517][926]LogContentValidation: Display: Validating StaticMeshActor /Game/OurStuff/FinalLevel.FinalLevel:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5D9C1401_1879976003
+[2022.05.30-13.29.30:517][926]LogContentValidation: Display: Validating StaticMeshActor /Game/OurStuff/FinalLevel.FinalLevel:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5D9C1401_1887977026
+[2022.05.30-13.29.30:517][926]LogContentValidation: Display: Validating StaticMeshActor /Game/OurStuff/FinalLevel.FinalLevel:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5D9C1401_1572511930
+[2022.05.30-13.29.30:517][926]LogContentValidation: Display: Validating StaticMeshActor /Game/OurStuff/FinalLevel.FinalLevel:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5D9C1401_1874483991
+[2022.05.30-13.29.30:517][926]LogContentValidation: Display: Validating StaticMeshActor /Game/OurStuff/FinalLevel.FinalLevel:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5D9C1401_1851879943
+[2022.05.30-13.29.30:517][926]LogContentValidation: Display: Validating StaticMeshActor /Game/OurStuff/FinalLevel.FinalLevel:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5D9C1401_1884306015
+[2022.05.30-13.29.30:517][926]LogContentValidation: Display: Validating StaticMeshActor /Game/OurStuff/FinalLevel.FinalLevel:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5D9C1401_1887977027
+[2022.05.30-13.29.30:517][926]LogContentValidation: Display: Validating StaticMeshActor /Game/OurStuff/FinalLevel.FinalLevel:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5D9C1401_1479292927
+[2022.05.30-13.29.30:517][926]LogContentValidation: Display: Validating StaticMeshActor /Game/OurStuff/FinalLevel.FinalLevel:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DCE1401_1277785563
+[2022.05.30-13.29.30:517][926]LogContentValidation: Display: Validating StaticMeshActor /Game/OurStuff/FinalLevel.FinalLevel:PersistentLevel.StaticMeshActor_UAID_6045CB9E0D5DCD1401_2097180373
